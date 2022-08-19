@@ -5370,3 +5370,179 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.08.19-21.57.11:606][926]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2022.08.19-21.57.11:611][926]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
 [2022.08.19-21.57.11:646][927]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2022.08.19-22.03.01:098][  4]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2022.08.19-22.03.01:098][  4]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.19-22.03.02:608][ 77]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2022.08.19-22.03.02:608][ 77]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.19-22.03.03:085][ 99]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2022.08.19-22.03.03:085][ 99]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.19-22.03.03:607][124]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2022.08.19-22.03.03:607][124]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.19-22.03.10:047][488]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/CustomCharacter/PlayerCharacter/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2022.08.19-22.03.10:047][488]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.08.19-22.03.14:318][684]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2022.08.19-22.03.14:488][684]LogUObjectGlobals: Warning: Failed to find object 'Class None.Physics'
+[2022.08.19-22.03.42:368][231]LogSlate: Window 'Project Settings' being destroyed
+[2022.08.19-22.03.42:376][231]LogSlate: Window 'Project Settings' being destroyed
+[2022.08.19-22.04.02:466][389]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2022.08.19-22.04.02:466][389]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.19-22.04.05:043][521]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/CustomCharacter/PlayerCharacter/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2022.08.19-22.04.05:044][521]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.08.19-22.06.30:913][965]LogScript: Warning: Accessed None trying to read property Pawn_MovementComponent
+	AnimBP_ybot_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.AnimBP_ybot_C_0
+	Function /Game/CustomCharacter/PlayerCharacter/Animations/AnimBP_ybot.AnimBP_ybot_C:ExecuteUbergraph_AnimBP_ybot:03D6
+[2022.08.19-22.06.30:913][965]LogScript: Warning: Accessed None trying to read property Pawn_MovementComponent
+	AnimBP_ybot_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.AnimBP_ybot_C_0
+	Function /Game/CustomCharacter/PlayerCharacter/Animations/AnimBP_ybot.AnimBP_ybot_C:ExecuteUbergraph_AnimBP_ybot:0418
+[2022.08.19-22.06.30:913][965]LogScript: Warning: Accessed None trying to read property Pawn_MovementComponent
+	AnimBP_ybot_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.AnimBP_ybot_C_0
+	Function /Game/CustomCharacter/PlayerCharacter/Animations/AnimBP_ybot.AnimBP_ybot_C:ExecuteUbergraph_AnimBP_ybot:04D5
+[2022.08.19-22.06.30:913][965]LogScript: Warning: Accessed None trying to read property BP_Player
+	AnimBP_ybot_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.AnimBP_ybot_C_0
+	Function /Game/CustomCharacter/PlayerCharacter/Animations/AnimBP_ybot.AnimBP_ybot_C:ExecuteUbergraph_AnimBP_ybot:0166
+[2022.08.19-22.06.30:913][965]LogScript: Warning: Accessed None trying to read property BP_Player
+	AnimBP_ybot_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.AnimBP_ybot_C_0
+	Function /Game/CustomCharacter/PlayerCharacter/Animations/AnimBP_ybot.AnimBP_ybot_C:ExecuteUbergraph_AnimBP_ybot:0136
+[2022.08.19-22.06.30:913][965]LogScript: Warning: Accessed None trying to read property BP_Player
+	AnimBP_ybot_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.AnimBP_ybot_C_0
+	Function /Game/CustomCharacter/PlayerCharacter/Animations/AnimBP_ybot.AnimBP_ybot_C:ExecuteUbergraph_AnimBP_ybot:0106
+[2022.08.19-22.06.30:913][965]LogScript: Warning: Accessed None trying to read property BP_Player
+	AnimBP_ybot_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.AnimBP_ybot_C_0
+	Function /Game/CustomCharacter/PlayerCharacter/Animations/AnimBP_ybot.AnimBP_ybot_C:ExecuteUbergraph_AnimBP_ybot:00D6
+[2022.08.19-22.06.30:913][965]LogScript: Warning: Accessed None trying to read property BP_Player
+	AnimBP_ybot_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.AnimBP_ybot_C_0
+	Function /Game/CustomCharacter/PlayerCharacter/Animations/AnimBP_ybot.AnimBP_ybot_C:ExecuteUbergraph_AnimBP_ybot:001F
+[2022.08.19-22.06.32:691][ 65]LogAssetEditorSubsystem: Opening Asset editor for BlendSpace1D /Game/CustomCharacter/PlayerCharacter/Animations/BS_ybot_Locomotion.BS_ybot_Locomotion
+[2022.08.19-22.06.32:759][ 65]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.08.19-22.06.32:775][ 65]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.08.19-22.06.33:013][ 65]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.08.19-22.06.33:520][ 65]LogViewport: Scene viewport resized to 1138x511, mode Windowed.
+[2022.08.19-22.06.33:560][ 65]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2022.08.19-22.07.39:457][689]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2022.08.19-22.07.39:640][689]LogScript: Warning: Accessed None trying to read property Pawn_MovementComponent
+	AnimBP_ybot_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.AnimBP_ybot_C_1
+	Function /Game/CustomCharacter/PlayerCharacter/Animations/AnimBP_ybot.AnimBP_ybot_C:ExecuteUbergraph_AnimBP_ybot:03D6
+[2022.08.19-22.07.39:640][689]LogScript: Warning: Accessed None trying to read property Pawn_MovementComponent
+	AnimBP_ybot_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.AnimBP_ybot_C_1
+	Function /Game/CustomCharacter/PlayerCharacter/Animations/AnimBP_ybot.AnimBP_ybot_C:ExecuteUbergraph_AnimBP_ybot:0418
+[2022.08.19-22.07.39:640][689]LogScript: Warning: Accessed None trying to read property Pawn_MovementComponent
+	AnimBP_ybot_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.AnimBP_ybot_C_1
+	Function /Game/CustomCharacter/PlayerCharacter/Animations/AnimBP_ybot.AnimBP_ybot_C:ExecuteUbergraph_AnimBP_ybot:04D5
+[2022.08.19-22.07.39:640][689]LogScript: Warning: Accessed None trying to read property BP_Player
+	AnimBP_ybot_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.AnimBP_ybot_C_1
+	Function /Game/CustomCharacter/PlayerCharacter/Animations/AnimBP_ybot.AnimBP_ybot_C:ExecuteUbergraph_AnimBP_ybot:0166
+[2022.08.19-22.07.39:640][689]LogScript: Warning: Accessed None trying to read property BP_Player
+	AnimBP_ybot_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.AnimBP_ybot_C_1
+	Function /Game/CustomCharacter/PlayerCharacter/Animations/AnimBP_ybot.AnimBP_ybot_C:ExecuteUbergraph_AnimBP_ybot:0136
+[2022.08.19-22.07.39:640][689]LogScript: Warning: Accessed None trying to read property BP_Player
+	AnimBP_ybot_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.AnimBP_ybot_C_1
+	Function /Game/CustomCharacter/PlayerCharacter/Animations/AnimBP_ybot.AnimBP_ybot_C:ExecuteUbergraph_AnimBP_ybot:0106
+[2022.08.19-22.07.39:640][689]LogScript: Warning: Accessed None trying to read property BP_Player
+	AnimBP_ybot_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.AnimBP_ybot_C_1
+	Function /Game/CustomCharacter/PlayerCharacter/Animations/AnimBP_ybot.AnimBP_ybot_C:ExecuteUbergraph_AnimBP_ybot:00D6
+[2022.08.19-22.07.39:640][689]LogScript: Warning: Accessed None trying to read property BP_Player
+	AnimBP_ybot_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.AnimBP_ybot_C_1
+	Function /Game/CustomCharacter/PlayerCharacter/Animations/AnimBP_ybot.AnimBP_ybot_C:ExecuteUbergraph_AnimBP_ybot:001F
+[2022.08.19-22.07.39:830][689]LogUObjectHash: Compacting FUObjectHashTables data took   3.40ms
+[2022.08.19-22.07.40:794][723]LogSavePackage: Moving output files for package: /Game/CustomCharacter/PlayerCharacter/BP_ThirdPersonCharacter
+[2022.08.19-22.07.40:795][723]LogSavePackage: Moving '../../../../../../Users/AxlFr/Documents/Unreal Projects/HorrorPrototype/Saved/BP_ThirdPersonCharacter0908C29A44A45E695B190195A74FBAAB.tmp' to '../../../../../../Users/AxlFr/Documents/Unreal Projects/HorrorPrototype/Content/CustomCharacter/PlayerCharacter/BP_ThirdPersonCharacter.uasset'
+[2022.08.19-22.07.40:816][723]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2022.08.19-22.07.40:816][723]LogContentValidation: Display: Validating Blueprint /Game/CustomCharacter/PlayerCharacter/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2022.08.19-22.07.51:623][350]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2022.08.19-22.07.51:787][350]LogScript: Warning: Accessed None trying to read property Pawn_MovementComponent
+	AnimBP_ybot_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.AnimBP_ybot_C_2
+	Function /Game/CustomCharacter/PlayerCharacter/Animations/AnimBP_ybot.AnimBP_ybot_C:ExecuteUbergraph_AnimBP_ybot:03D6
+[2022.08.19-22.07.51:787][350]LogScript: Warning: Accessed None trying to read property Pawn_MovementComponent
+	AnimBP_ybot_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.AnimBP_ybot_C_2
+	Function /Game/CustomCharacter/PlayerCharacter/Animations/AnimBP_ybot.AnimBP_ybot_C:ExecuteUbergraph_AnimBP_ybot:0418
+[2022.08.19-22.07.51:787][350]LogScript: Warning: Accessed None trying to read property Pawn_MovementComponent
+	AnimBP_ybot_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.AnimBP_ybot_C_2
+	Function /Game/CustomCharacter/PlayerCharacter/Animations/AnimBP_ybot.AnimBP_ybot_C:ExecuteUbergraph_AnimBP_ybot:04D5
+[2022.08.19-22.07.51:787][350]LogScript: Warning: Accessed None trying to read property BP_Player
+	AnimBP_ybot_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.AnimBP_ybot_C_2
+	Function /Game/CustomCharacter/PlayerCharacter/Animations/AnimBP_ybot.AnimBP_ybot_C:ExecuteUbergraph_AnimBP_ybot:0166
+[2022.08.19-22.07.51:787][350]LogScript: Warning: Accessed None trying to read property BP_Player
+	AnimBP_ybot_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.AnimBP_ybot_C_2
+	Function /Game/CustomCharacter/PlayerCharacter/Animations/AnimBP_ybot.AnimBP_ybot_C:ExecuteUbergraph_AnimBP_ybot:0136
+[2022.08.19-22.07.51:787][350]LogScript: Warning: Accessed None trying to read property BP_Player
+	AnimBP_ybot_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.AnimBP_ybot_C_2
+	Function /Game/CustomCharacter/PlayerCharacter/Animations/AnimBP_ybot.AnimBP_ybot_C:ExecuteUbergraph_AnimBP_ybot:0106
+[2022.08.19-22.07.51:787][350]LogScript: Warning: Accessed None trying to read property BP_Player
+	AnimBP_ybot_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.AnimBP_ybot_C_2
+	Function /Game/CustomCharacter/PlayerCharacter/Animations/AnimBP_ybot.AnimBP_ybot_C:ExecuteUbergraph_AnimBP_ybot:00D6
+[2022.08.19-22.07.51:787][350]LogScript: Warning: Accessed None trying to read property BP_Player
+	AnimBP_ybot_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.AnimBP_ybot_C_2
+	Function /Game/CustomCharacter/PlayerCharacter/Animations/AnimBP_ybot.AnimBP_ybot_C:ExecuteUbergraph_AnimBP_ybot:001F
+[2022.08.19-22.07.51:901][350]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
+[2022.08.19-22.07.53:126][401]LogSavePackage: Moving output files for package: /Game/CustomCharacter/PlayerCharacter/BP_ThirdPersonCharacter
+[2022.08.19-22.07.53:126][401]LogSavePackage: Moving '../../../../../../Users/AxlFr/Documents/Unreal Projects/HorrorPrototype/Saved/BP_ThirdPersonCharacter10AC9EBE4D9EA5D9BB9F37BD74A9E81D.tmp' to '../../../../../../Users/AxlFr/Documents/Unreal Projects/HorrorPrototype/Content/CustomCharacter/PlayerCharacter/BP_ThirdPersonCharacter.uasset'
+[2022.08.19-22.07.53:145][401]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2022.08.19-22.07.53:145][401]LogContentValidation: Display: Validating Blueprint /Game/CustomCharacter/PlayerCharacter/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2022.08.19-22.08.07:781][264]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.08.19-22.08.07:791][264]LogWorldPartition: Display: GenerateStreaming started...
+[2022.08.19-22.08.07:791][264]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.08.19-22.08.07:791][264]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.08.19-22.08.07:791][264]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.08.19-22.08.07:791][264]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.08.19-22.08.07:791][264]LogWorldPartition: Display: GetPartitionedActors took 54 us
+[2022.08.19-22.08.07:792][264]LogWorldPartition: Display: GenerateStreaming took 433 us
+[2022.08.19-22.08.07:792][264]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.08.19-22.08.07:792][264]PIE: New page: PIE session: ThirdPersonMap (20 Aug 2022, 02:08:07)
+[2022.08.19-22.08.07:835][264]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.08.19-22.08.07:843][264]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.08.19-22.08.07:843][264]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007618s)
+[2022.08.19-22.08.07:843][264]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.007744s)
+[2022.08.19-22.08.07:843][264]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.08.19-22.08.07:844][264]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2022.08.19-22.08.07:844][264]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.08.19-22.08.07:844][264]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.08.19-22.08.07:846][264]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2022.08.19-22.08.07:846][264]LogPlayLevel: PIE: World Init took: (0.002958s)
+[2022.08.19-22.08.07:888][264]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2022.08.19-22.08.07:894][264]LogAudio: Display: Creating Audio Device:                 Id: 27, Scope: Unique, Realtime: True
+[2022.08.19-22.08.07:894][264]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.08.19-22.08.07:895][264]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.08.19-22.08.07:895][264]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.08.19-22.08.07:895][264]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.08.19-22.08.07:895][264]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.08.19-22.08.07:895][264]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.08.19-22.08.07:895][264]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.08.19-22.08.07:895][264]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.08.19-22.08.07:895][264]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.08.19-22.08.07:895][264]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.08.19-22.08.07:895][264]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.08.19-22.08.07:897][264]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.08.19-22.08.07:912][264]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (HyperX Virtual Surround Sound)
+[2022.08.19-22.08.07:912][264]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.08.19-22.08.07:913][264]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.08.19-22.08.07:913][264]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.08.19-22.08.07:913][264]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=27
+[2022.08.19-22.08.07:913][264]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=27
+[2022.08.19-22.08.07:915][264]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=27
+[2022.08.19-22.08.07:915][264]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=27
+[2022.08.19-22.08.07:915][264]LogInit: FAudioDevice initialized.
+[2022.08.19-22.08.07:915][264]LogAudio: Display: Audio Device (ID: 27) registered with world 'ThirdPersonMap'.
+[2022.08.19-22.08.07:930][264]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.08.19-22.08.07:934][264]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2022.08.20-00.08.07
+[2022.08.19-22.08.07:935][264]LogWorld: Bringing up level for play took: 0.004304
+[2022.08.19-22.08.07:937][264]LogOnline: OSS: Created online subsystem instance for: :Context_51
+[2022.08.19-22.08.07:940][264]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=1110.000 Z=92.013
+[2022.08.19-22.08.07:940][264]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.08.19-22.08.07:944][264]PIE: Server logged in
+[2022.08.19-22.08.07:944][264]PIE: Play in editor total start time 0,155 seconds.
+[2022.08.19-22.08.43:707][203]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.19-22.08.43:707][203]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.08.19-22.08.43:708][203]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.08.19-22.08.43:708][203]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.19-22.08.43:739][203]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.08.19-22.08.43:748][203]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.19-22.08.43:789][203]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.08.19-22.08.43:790][203]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27
+[2022.08.19-22.08.43:792][203]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27
+[2022.08.19-22.08.43:796][203]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.19-22.08.43:801][203]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2022.08.19-22.08.43:905][204]LogPlayLevel: Display: Destroying online subsystem :Context_51
+[2022.08.19-22.09.08:881][381]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2022.08.19-22.09.08:881][381]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.19-22.09.09:002][381]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2022.08.19-22.09.09:002][381]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
