@@ -183,3 +183,40 @@
 [0821/101448.500:WARNING:value_store_frontend.cc(44)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
 [0821/214027.943:WARNING:value_store_frontend.cc(44)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
 [0822/201914.375:WARNING:value_store_frontend.cc(44)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[0825/175024.123:ERROR:os_crypt_win.cc(92)] Failed to decrypt: Key not valid for use in specified state. (0x8009000B)
+[0825/175038.349:WARNING:backend_impl.cc(1813)] Destroying invalid entry.
+[0825/175038.651:ERROR:backend_impl.cc(1041)] Critical error found -8
+[0825/175039.250:WARNING:storage_block-inl.h(146)] Failed data load.
+[0825/175039.251:WARNING:storage_block-inl.h(146)] Failed data load.
+[0825/175039.252:WARNING:storage_block-inl.h(146)] Failed data load.
+[0825/175039.254:WARNING:storage_block-inl.h(146)] Failed data load.
+[0825/175039.256:ERROR:entry_impl.cc(998)] Failed to save user data
+[0825/175039.256:ERROR:entry_impl.cc(998)] Failed to save user data
+[0825/175151.501:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 104 to 127
+[0825/175151.501:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 102 to 125
+[0825/175151.501:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 104 to 124
+[0825/175151.501:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 106 to 123
+[0825/175151.502:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 103 to 122
+[0825/175151.502:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 105 to 121
+[0825/175151.502:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 109 to 120
+[0825/175151.505:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 1 to 14
+[0825/175151.505:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 3 to 13
+[0825/175151.505:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 5 to 12
+[0825/175151.505:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 6 to 11
+[0825/175151.513:ERROR:audio_rtp_receiver.cc(89)] AudioRtpReceiver::OnSetVolume: No audio channel exists.
+[0825/175200.676:ERROR:audio_rtp_receiver.cc(89)] AudioRtpReceiver::OnSetVolume: No audio channel exists.
+[0825/175200.677:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 104 to 127
+[0825/175200.677:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 102 to 125
+[0825/175200.677:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 104 to 124
+[0825/175200.677:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 106 to 123
+[0825/175200.677:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 103 to 122
+[0825/175200.677:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 105 to 121
+[0825/175200.677:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 109 to 120
+[0825/175200.677:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 1 to 14
+[0825/175200.677:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 3 to 13
+[0825/175200.677:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 5 to 12
+[0825/175200.677:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 6 to 11
+[0825/175330.310:ERROR:batching_media_log.cc(38)] MediaEvent: {"error":"FFmpegDemuxer: no supported streams"}
+[0825/175330.311:ERROR:batching_media_log.cc(35)] MediaEvent: {"pipeline_error":14}
+[0825/175350.215:ERROR:batching_media_log.cc(38)] MediaEvent: {"error":"FFmpegDemuxer: no supported streams"}
+[0825/175350.216:ERROR:batching_media_log.cc(35)] MediaEvent: {"pipeline_error":14}
