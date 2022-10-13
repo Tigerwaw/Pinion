@@ -4834,3 +4834,1307 @@ BTTask_SetFocusLOS_C.ReceiveExecuteAI
 [2022.10.13-15.40.41:139][691]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/TestMap8942544C4BA19E3E896AE78E64D62EA2.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Content/ThirdPerson/Maps/TestMap.umap'
 [2022.10.13-15.40.41:196][691]AssetCheck: New page: Asset Save: TestMap
 [2022.10.13-15.40.41:196][691]LogContentValidation: Display: Validating World /Game/ThirdPerson/Maps/TestMap.TestMap
+[2022.10.13-15.42.35:572][949]LogEditorTransaction: Undo Set Rotation
+[2022.10.13-15.42.36:691][ 17]LogEditorTransaction: Redo Set Rotation
+[2022.10.13-15.42.46:347][932]BlueprintLog: New page: Compile BP_Interactable_Door
+[2022.10.13-15.42.46:663][932]LogUObjectHash: Compacting FUObjectHashTables data took   4.42ms
+[2022.10.13-15.42.47:313][972]LogSavePackage: Moving output files for package: /Game/Blueprints/Interactables/BP_Interactable_Door
+[2022.10.13-15.42.47:314][972]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/BP_Interactable_DoorAFB41A884E8AC0942780F79F2124147B.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Content/Blueprints/Interactables/BP_Interactable_Door.uasset'
+[2022.10.13-15.42.47:330][972]AssetCheck: New page: Asset Save: BP_Interactable_Door
+[2022.10.13-15.42.47:330][972]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Interactables/BP_Interactable_Door.BP_Interactable_Door
+[2022.10.13-15.42.49:546][151]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.10.13-15.42.49:562][151]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.13-15.42.49:562][151]PIE: New page: PIE session: TestMap (13 Oct 2022, 19:42:49)
+[2022.10.13-15.42.49:589][151]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_TestMap
+[2022.10.13-15.42.49:605][151]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016450s)
+[2022.10.13-15.42.49:605][151]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/TestMap.TestMap to /Game/ThirdPerson/Maps/UEDPIE_0_TestMap.TestMap (0.016584s)
+[2022.10.13-15.42.49:605][151]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.13-15.42.49:605][151]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.13-15.42.49:606][151]LogAIModule: Creating AISystem for world TestMap
+[2022.10.13-15.42.49:606][151]LogPlayLevel: PIE: World Init took: (0.000991s)
+[2022.10.13-15.42.49:656][151]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2022.10.13-15.42.49:662][151]LogAudio: Display: Creating Audio Device:                 Id: 31, Scope: Unique, Realtime: True
+[2022.10.13-15.42.49:662][151]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.13-15.42.49:662][151]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.13-15.42.49:662][151]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.13-15.42.49:662][151]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.13-15.42.49:662][151]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.13-15.42.49:663][151]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.13-15.42.49:663][151]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.13-15.42.49:663][151]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.13-15.42.49:663][151]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.10.13-15.42.49:663][151]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.10.13-15.42.49:663][151]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.13-15.42.49:665][151]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.13-15.42.49:702][151]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (HyperX Virtual Surround Sound)
+[2022.10.13-15.42.49:703][151]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.13-15.42.49:703][151]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.13-15.42.49:703][151]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.13-15.42.49:703][151]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=31
+[2022.10.13-15.42.49:703][151]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=31
+[2022.10.13-15.42.49:705][151]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=31
+[2022.10.13-15.42.49:705][151]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=31
+[2022.10.13-15.42.49:705][151]LogInit: FAudioDevice initialized.
+[2022.10.13-15.42.49:705][151]LogAudio: Display: Audio Device (ID: 31) registered with world 'TestMap'.
+[2022.10.13-15.42.49:719][151]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.10.13-15.42.49:729][151]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2022.10.13-17.42.49
+[2022.10.13-15.42.49:729][151]LogWorld: Bringing up level for play took: 0.010205
+[2022.10.13-15.42.49:732][151]LogOnline: OSS: Created online subsystem instance for: :Context_47
+[2022.10.13-15.42.49:738][151]PIE: Server logged in
+[2022.10.13-15.42.49:739][151]PIE: Play in editor total start time 0,177 seconds.
+[2022.10.13-15.42.51:426][234]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Added item
+[2022.10.13-15.42.56:411][492]LogBlueprintUserMessages: [BP_Interactable_Door_C_6] Successfully Interacted
+[2022.10.13-15.42.58:987][627]LogBlueprintUserMessages: [BP_Interactable_Door_C_7] Successfully Interacted
+[2022.10.13-15.43.02:883][829]LogBlueprintUserMessages: [BP_Interactable_Door_C_6] Successfully Interacted
+[2022.10.13-15.43.07:431][ 63]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.13-15.43.07:431][ 63]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_TestMap
+[2022.10.13-15.43.07:432][ 63]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2022.10.13-15.43.07:433][ 63]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.13-15.43.07:450][ 63]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.13-15.43.07:459][ 63]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.13-15.43.07:508][ 63]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.10.13-15.43.07:508][ 63]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=31
+[2022.10.13-15.43.07:510][ 63]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=31
+[2022.10.13-15.43.07:513][ 63]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.13-15.43.07:519][ 63]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2022.10.13-15.43.07:577][ 64]LogPlayLevel: Display: Destroying online subsystem :Context_47
+[2022.10.13-15.43.31:759][287]LogSavePackage: Moving output files for package: /Game/Blueprints/Interactables/BP_Interactable_Door
+[2022.10.13-15.43.31:760][287]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/BP_Interactable_DoorC9B7A6B14A4B821C0011F1AED118AA01.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Content/Blueprints/Interactables/BP_Interactable_Door.uasset'
+[2022.10.13-15.43.31:779][287]AssetCheck: New page: Asset Save: BP_Interactable_Door
+[2022.10.13-15.43.31:779][287]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Interactables/BP_Interactable_Door.BP_Interactable_Door
+[2022.10.13-15.43.32:624][368]BlueprintLog: New page: Compile BP_Interactable_Door
+[2022.10.13-15.43.32:745][368]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2022.10.13-15.43.33:256][396]LogSavePackage: Moving output files for package: /Game/Blueprints/Interactables/BP_Interactable_Door
+[2022.10.13-15.43.33:257][396]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/BP_Interactable_Door0EE95CAE44045D91923CCB990D2D5104.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Content/Blueprints/Interactables/BP_Interactable_Door.uasset'
+[2022.10.13-15.43.33:274][396]AssetCheck: New page: Asset Save: BP_Interactable_Door
+[2022.10.13-15.43.33:274][396]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Interactables/BP_Interactable_Door.BP_Interactable_Door
+[2022.10.13-15.45.00:057][761]LogContentBrowser: Deferred new asset file creation: NewUserDefinedEnum
+[2022.10.13-15.45.00:067][761]LogContentBrowser: Creating deferred item: NewUserDefinedEnum
+[2022.10.13-15.45.00:081][762]LogContentBrowser: Renaming the item being created (Deferred Item: NewUserDefinedEnum).
+[2022.10.13-15.45.14:501][207]LogContentBrowser: Attempting asset rename: NewUserDefinedEnum -> DoorLockedState
+[2022.10.13-15.45.14:513][207]LogContentBrowser: End creating deferred item NewUserDefinedEnum
+[2022.10.13-15.45.15:851][334]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedEnum /Game/Blueprints/Interactables/DoorLockedState.DoorLockedState
+[2022.10.13-15.45.17:733][501]LogSlate: Window 'DoorLockedState' being destroyed
+[2022.10.13-15.46.04:558][ 72]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Interactables/DoorLockedState" FILE="../../../../../UnrealProjects/HorrorPrototype/Content/Blueprints/Interactables/DoorLockedState.uasset" SILENT=true
+[2022.10.13-15.46.04:560][ 72]LogSavePackage: Moving output files for package: /Game/Blueprints/Interactables/DoorLockedState
+[2022.10.13-15.46.04:560][ 72]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/DoorLockedState40136D414F9BED93257036A7918784BE.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Content/Blueprints/Interactables/DoorLockedState.uasset'
+[2022.10.13-15.46.04:577][ 72]AssetCheck: New page: Asset Save: DoorLockedState
+[2022.10.13-15.46.04:577][ 72]LogContentValidation: Display: Validating UserDefinedEnum /Game/Blueprints/Interactables/DoorLockedState.DoorLockedState
+[2022.10.13-15.46.31:744][683]LogContentBrowser: Attempting asset rename: DoorLockedState -> DoorLockState
+[2022.10.13-15.46.31:830][683]LogMetaData: Removing '/Game/Blueprints/Interactables/DoorLockState.DoorLockState' ref from Metadata '/Game/Blueprints/Interactables/DoorLockedState.PackageMetaData'
+[2022.10.13-15.46.31:886][683]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Interactables/DoorLockState" FILE="../../../../../UnrealProjects/HorrorPrototype/Content/Blueprints/Interactables/DoorLockState.uasset" SILENT=true
+[2022.10.13-15.46.31:887][683]LogSavePackage: Moving output files for package: /Game/Blueprints/Interactables/DoorLockState
+[2022.10.13-15.46.31:887][683]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/DoorLockStateD91E2A6C475DDB887DC7AD8611348C6F.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Content/Blueprints/Interactables/DoorLockState.uasset'
+[2022.10.13-15.46.31:984][683]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2022.10.13-15.46.32:039][683]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2022.10.13-15.46.32:088][683]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2022.10.13-15.46.32:098][683]AssetCheck: New page: Asset Save: DoorLockState
+[2022.10.13-15.46.32:098][683]LogContentValidation: Display: Validating UserDefinedEnum /Game/Blueprints/Interactables/DoorLockState.DoorLockState
+[2022.10.13-15.46.40:723][503]LogSavePackage: Moving output files for package: /Game/Blueprints/Interactables/BP_Interactable_Door
+[2022.10.13-15.46.40:724][503]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/BP_Interactable_DoorAD26650543385068CA62FEAA56E84109.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Content/Blueprints/Interactables/BP_Interactable_Door.uasset'
+[2022.10.13-15.46.40:741][503]AssetCheck: New page: Asset Save: BP_Interactable_Door
+[2022.10.13-15.46.40:741][503]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Interactables/BP_Interactable_Door.BP_Interactable_Door
+[2022.10.13-15.48.19:469][260]LogEditorTransaction: Undo Modify Component(s)
+[2022.10.13-15.49.07:435][150]BlueprintLog: New page: Compile BP_Interactable_Door
+[2022.10.13-15.49.07:574][150]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2022.10.13-15.49.08:192][185]LogSavePackage: Moving output files for package: /Game/Blueprints/Interactables/BP_Interactable_Door
+[2022.10.13-15.49.08:193][185]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/BP_Interactable_DoorD8AAA9E34C91F966374FFE9DE6158731.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Content/Blueprints/Interactables/BP_Interactable_Door.uasset'
+[2022.10.13-15.49.08:209][185]AssetCheck: New page: Asset Save: BP_Interactable_Door
+[2022.10.13-15.49.08:209][185]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Interactables/BP_Interactable_Door.BP_Interactable_Door
+[2022.10.13-15.49.40:456][896]LogSavePackage: Moving output files for package: /Game/Blueprints/Interactables/BP_Interactable_Door
+[2022.10.13-15.49.40:457][896]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/BP_Interactable_Door5455A0FF4C60CC5CB76C9B96B961E946.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Content/Blueprints/Interactables/BP_Interactable_Door.uasset'
+[2022.10.13-15.49.40:475][896]AssetCheck: New page: Asset Save: BP_Interactable_Door
+[2022.10.13-15.49.40:476][896]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Interactables/BP_Interactable_Door.BP_Interactable_Door
+[2022.10.13-15.52.04:806][258]LogSlate: Window 'Change Variable Type' being destroyed
+[2022.10.13-15.52.11:043][626]LogSlate: Window 'Change Variable Type' being destroyed
+[2022.10.13-15.52.20:029][488]BlueprintLog: New page: Compile BP_Interactable_Door
+[2022.10.13-15.52.20:169][488]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
+[2022.10.13-15.57.34:091][ 21]LogSavePackage: Moving output files for package: /Game/Blueprints/Interactables/BP_Interactable_Door
+[2022.10.13-15.57.34:092][ 21]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/BP_Interactable_Door401E88DA49D483494E20A5B48E55A097.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Content/Blueprints/Interactables/BP_Interactable_Door.uasset'
+[2022.10.13-15.57.34:113][ 21]AssetCheck: New page: Asset Save: BP_Interactable_Door
+[2022.10.13-15.57.34:113][ 21]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Interactables/BP_Interactable_Door.BP_Interactable_Door
+[2022.10.13-15.59.41:390][519]LogDerivedDataCache: C:/Users/Axel/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.905 and deleted 0 file(s) with total size 0 MiB.
+[2022.10.13-15.59.42:489][629]LogEditorTransaction: Undo Resize Node
+[2022.10.13-15.59.44:595][794]LogEditorTransaction: Undo Move Nodes
+[2022.10.13-15.59.45:249][850]LogEditorTransaction: Redo Move Nodes
+[2022.10.13-15.59.45:643][878]LogEditorTransaction: Redo Resize Node
+[2022.10.13-16.00.43:786][114]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2022.10.13-16.00.43:845][114]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Maps/TestMap_Auto4
+[2022.10.13-16.00.43:845][114]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/TestMap_Auto40A94069F4DF45006C8CC9FAADDD5A0B6.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Saved/Autosaves/Game/ThirdPerson/Maps/TestMap_Auto4.umap'
+[2022.10.13-16.00.43:853][114]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/TestMap' took 0.124
+[2022.10.13-16.00.43:853][114]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.124
+[2022.10.13-16.00.43:854][114]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Interactables/BP_Interactable_Door] ([2] browsable assets)...
+[2022.10.13-16.00.43:922][114]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Interactables/BP_Interactable_Door.BP_Interactable_Door]
+[2022.10.13-16.00.43:922][114]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Interactables/BP_Interactable_Door]
+[2022.10.13-16.00.43:977][114]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Interactables/BP_Interactable_Door_Auto4
+[2022.10.13-16.00.43:978][114]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/BP_Interactable_Door_Auto4A91EE75045D36CCB4B01C9B63A09B911.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Saved/Autosaves/Game/Blueprints/Interactables/BP_Interactable_Door_Auto4.uasset'
+[2022.10.13-16.00.43:978][114]LogFileHelpers: Auto-saving content packages took 0.126
+[2022.10.13-16.00.54:791][126]BlueprintLog: New page: Compile BP_Interactable_Door
+[2022.10.13-16.00.54:917][126]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2022.10.13-16.00.55:528][155]LogSavePackage: Moving output files for package: /Game/Blueprints/Interactables/BP_Interactable_Door
+[2022.10.13-16.00.55:529][155]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/BP_Interactable_Door4B203EEA40C5EA9249B698B1E4C7FBA0.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Content/Blueprints/Interactables/BP_Interactable_Door.uasset'
+[2022.10.13-16.00.55:547][155]AssetCheck: New page: Asset Save: BP_Interactable_Door
+[2022.10.13-16.00.55:547][155]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Interactables/BP_Interactable_Door.BP_Interactable_Door
+[2022.10.13-16.02.26:318][550]BlueprintLog: New page: Compile BP_Interactable_Door
+[2022.10.13-16.02.26:450][550]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2022.10.13-16.02.27:217][611]LogSavePackage: Moving output files for package: /Game/Blueprints/Interactables/BP_Interactable_Door
+[2022.10.13-16.02.27:218][611]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/BP_Interactable_DoorAB2322694ACC9E979AAF479950C08A72.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Content/Blueprints/Interactables/BP_Interactable_Door.uasset'
+[2022.10.13-16.02.27:236][611]AssetCheck: New page: Asset Save: BP_Interactable_Door
+[2022.10.13-16.02.27:236][611]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Interactables/BP_Interactable_Door.BP_Interactable_Door
+[2022.10.13-16.02.29:489][773]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Maps/TestMap" FILE="../../../../../UnrealProjects/HorrorPrototype/Content/ThirdPerson/Maps/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.10.13-16.02.29:544][773]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2022.10.13-16.02.29:599][773]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Maps/TestMap
+[2022.10.13-16.02.29:599][773]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/TestMap0F04729D4B42A64F9B9F1CA59A40B5C6.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Content/ThirdPerson/Maps/TestMap.umap'
+[2022.10.13-16.02.29:648][773]AssetCheck: New page: Asset Save: TestMap
+[2022.10.13-16.02.29:648][773]LogContentValidation: Display: Validating World /Game/ThirdPerson/Maps/TestMap.TestMap
+[2022.10.13-16.02.30:235][801]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.10.13-16.02.30:251][801]BlueprintLog: New page: Pre-Play auto-recompile
+[2022.10.13-16.02.30:252][801]LogPlayLevel: [PlayLevel] Compiling PROTO_BP_AnimBlueprint_0 before play...
+[2022.10.13-16.02.30:310][801]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2022.10.13-16.02.30:313][801]LogPlayLevel: PlayLevel: Blueprint regeneration took 61 ms (1 blueprints)
+[2022.10.13-16.02.30:313][801]PIE: New page: PIE session: TestMap (13 Oct 2022, 20:02:30)
+[2022.10.13-16.02.30:313][801]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_TestMap
+[2022.10.13-16.02.30:330][801]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016726s)
+[2022.10.13-16.02.30:330][801]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/TestMap.TestMap to /Game/ThirdPerson/Maps/UEDPIE_0_TestMap.TestMap (0.016830s)
+[2022.10.13-16.02.30:330][801]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.13-16.02.30:330][801]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.13-16.02.30:331][801]LogAIModule: Creating AISystem for world TestMap
+[2022.10.13-16.02.30:331][801]LogPlayLevel: PIE: World Init took: (0.001043s)
+[2022.10.13-16.02.30:383][801]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2022.10.13-16.02.30:384][801]LogAudio: Display: Creating Audio Device:                 Id: 32, Scope: Unique, Realtime: True
+[2022.10.13-16.02.30:384][801]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.13-16.02.30:385][801]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.13-16.02.30:385][801]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.13-16.02.30:385][801]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.13-16.02.30:385][801]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.13-16.02.30:385][801]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.13-16.02.30:385][801]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.13-16.02.30:385][801]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.13-16.02.30:385][801]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.10.13-16.02.30:385][801]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.10.13-16.02.30:385][801]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.13-16.02.30:388][801]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.13-16.02.30:426][801]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (HyperX Virtual Surround Sound)
+[2022.10.13-16.02.30:427][801]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.13-16.02.30:427][801]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.13-16.02.30:427][801]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.13-16.02.30:428][801]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=32
+[2022.10.13-16.02.30:428][801]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=32
+[2022.10.13-16.02.30:430][801]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=32
+[2022.10.13-16.02.30:430][801]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=32
+[2022.10.13-16.02.30:430][801]LogInit: FAudioDevice initialized.
+[2022.10.13-16.02.30:430][801]LogAudio: Display: Audio Device (ID: 32) registered with world 'TestMap'.
+[2022.10.13-16.02.30:441][801]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.10.13-16.02.30:451][801]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2022.10.13-18.02.30
+[2022.10.13-16.02.30:452][801]LogWorld: Bringing up level for play took: 0.010730
+[2022.10.13-16.02.30:454][801]LogOnline: OSS: Created online subsystem instance for: :Context_48
+[2022.10.13-16.02.30:462][801]PIE: Server logged in
+[2022.10.13-16.02.30:463][801]PIE: Play in editor total start time 0,212 seconds.
+[2022.10.13-16.02.33:130][943]LogBlueprintUserMessages: [BP_Interactable_Door_C_6] Successfully Interacted
+[2022.10.13-16.02.36:616][143]LogBlueprintUserMessages: [BP_Interactable_Door_C_6] Successfully Interacted
+[2022.10.13-16.02.39:112][284]LogBlueprintUserMessages: [BP_Interactable_Door_C_7] Successfully Interacted
+[2022.10.13-16.02.41:753][431]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.13-16.02.41:753][431]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_TestMap
+[2022.10.13-16.02.41:753][431]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2022.10.13-16.02.41:755][431]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.13-16.02.41:771][431]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.13-16.02.41:780][431]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.13-16.02.41:828][431]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.13-16.02.41:830][431]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=32
+[2022.10.13-16.02.41:831][431]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=32
+[2022.10.13-16.02.41:840][431]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2022.10.13-16.02.41:899][432]LogPlayLevel: Display: Destroying online subsystem :Context_48
+[2022.10.13-16.02.49:935][828]LogContentBrowser: Deferred new asset file creation: BP_Interactable_Door_Child
+[2022.10.13-16.02.49:967][828]LogContentBrowser: Creating deferred item: BP_Interactable_Door_Child
+[2022.10.13-16.02.49:985][829]LogContentBrowser: Renaming the item being created (Deferred Item: BP_Interactable_Door_Child).
+[2022.10.13-16.03.00:068][373]LogContentBrowser: Attempting asset rename: BP_Interactable_Door_Child -> BP_Interactable_DoubleDoor
+[2022.10.13-16.03.00:076][373]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/Blueprints/Interactables/BP_Interactable_DoubleDoor.
+[2022.10.13-16.03.00:076][373]LogContentBrowser: End creating deferred item BP_Interactable_Door_Child
+[2022.10.13-16.03.01:623][444]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Interactables/BP_Interactable_DoubleDoor.BP_Interactable_DoubleDoor
+[2022.10.13-16.03.01:624][444]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.13-16.03.02:319][444]LogViewport: Scene viewport resized to 1141x693, mode Windowed.
+[2022.10.13-16.03.50:090][248]LogEditorTransaction: Undo Modify Component(s)
+[2022.10.13-16.04.44:411][889]BlueprintLog: New page: Compile BP_Interactable_DoubleDoor
+[2022.10.13-16.04.44:597][889]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2022.10.13-16.04.45:276][954]LogSavePackage: Moving output files for package: /Game/Blueprints/Interactables/BP_Interactable_DoubleDoor
+[2022.10.13-16.04.45:276][954]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/BP_Interactable_DoubleDoorF0328A994B18991A60A96EB6D948330A.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Content/Blueprints/Interactables/BP_Interactable_DoubleDoor.uasset'
+[2022.10.13-16.04.45:294][954]AssetCheck: New page: Asset Save: BP_Interactable_DoubleDoor
+[2022.10.13-16.04.45:294][954]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Interactables/BP_Interactable_DoubleDoor.BP_Interactable_DoubleDoor
+[2022.10.13-16.04.45:296][954]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/Blueprints/Interactables/BP_Interactable_DoubleDoor.
+[2022.10.13-16.05.14:612][209]LogEditorTransaction: Undo Delete current selection
+[2022.10.13-16.05.28:249][618]Cmd: TRANSACTION UNDO
+[2022.10.13-16.05.28:249][618]LogEditorTransaction: Undo Add New Function
+[2022.10.13-16.05.44:015][339]BlueprintLog: New page: Compile BP_Interactable_DoubleDoor
+[2022.10.13-16.05.44:127][339]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2022.10.13-16.05.44:705][382]LogSavePackage: Moving output files for package: /Game/Blueprints/Interactables/BP_Interactable_DoubleDoor
+[2022.10.13-16.05.44:706][382]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/BP_Interactable_DoubleDoorB4ECE8704CE663EC6475118EF13DE0A0.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Content/Blueprints/Interactables/BP_Interactable_DoubleDoor.uasset'
+[2022.10.13-16.05.44:725][382]AssetCheck: New page: Asset Save: BP_Interactable_DoubleDoor
+[2022.10.13-16.05.44:725][382]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Interactables/BP_Interactable_DoubleDoor.BP_Interactable_DoubleDoor
+[2022.10.13-16.07.47:996][112]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Interactables/BP_Interactable_Base.BP_Interactable_Base
+[2022.10.13-16.07.47:996][112]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.13-16.07.51:004][369]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2022.10.13-16.07.51:004][369]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.13-16.08.07:840][  2]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/CustomCharacter/PlayerCharacter/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2022.10.13-16.08.07:840][  2]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.13-16.08.11:370][168]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2022.10.13-16.08.11:370][168]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.13-16.08.50:965][150]LogEditorTransaction: Undo Modify Component(s)
+[2022.10.13-16.09.01:419][ 48]LogEditorTransaction: Undo Modify Component(s)
+[2022.10.13-16.09.07:418][602]LogSavePackage: Moving output files for package: /Game/Blueprints/Interactables/BP_Interactable_DoubleDoor
+[2022.10.13-16.09.07:419][602]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/BP_Interactable_DoubleDoorA679BA03428C24DC3FF8F6905E54859A.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Content/Blueprints/Interactables/BP_Interactable_DoubleDoor.uasset'
+[2022.10.13-16.09.07:438][602]AssetCheck: New page: Asset Save: BP_Interactable_DoubleDoor
+[2022.10.13-16.09.07:438][602]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Interactables/BP_Interactable_DoubleDoor.BP_Interactable_DoubleDoor
+[2022.10.13-16.09.56:702][708]LogEditorTransaction: Undo Modify Component(s)
+[2022.10.13-16.10.22:420][372]BlueprintLog: New page: Compile BP_Interactable_DoubleDoor
+[2022.10.13-16.10.22:748][372]LogUObjectHash: Compacting FUObjectHashTables data took   3.25ms
+[2022.10.13-16.14.52:746][128]LogEditorTransaction: Undo Move Nodes
+[2022.10.13-16.14.52:967][131]LogEditorTransaction: Undo Move Nodes
+[2022.10.13-16.14.53:139][133]LogEditorTransaction: Undo Move Node
+[2022.10.13-16.14.53:374][143]LogEditorTransaction: Undo Move Node
+[2022.10.13-16.14.53:637][165]LogEditorTransaction: Undo Move Node
+[2022.10.13-16.14.53:834][181]LogEditorTransaction: Undo Move Node
+[2022.10.13-16.14.53:994][193]LogEditorTransaction: Undo Delete current selection
+[2022.10.13-16.14.54:147][202]LogEditorTransaction: Undo Delete current selection
+[2022.10.13-16.14.54:289][207]LogEditorTransaction: Undo Move Nodes
+[2022.10.13-16.14.54:413][212]LogEditorTransaction: Undo Move Node
+[2022.10.13-16.14.54:577][222]LogEditorTransaction: Undo Create Pin Link
+[2022.10.13-16.14.55:160][279]LogEditorTransaction: Undo Move Node
+[2022.10.13-16.14.55:411][300]LogEditorTransaction: Undo Move Node
+[2022.10.13-16.14.55:798][336]LogEditorTransaction: Undo Move Node
+[2022.10.13-16.14.57:248][475]LogEditorTransaction: Redo Move Node
+[2022.10.13-16.14.57:530][497]LogEditorTransaction: Redo Move Node
+[2022.10.13-16.14.57:883][528]LogEditorTransaction: Redo Move Node
+[2022.10.13-16.14.58:111][545]LogEditorTransaction: Redo Create Pin Link
+[2022.10.13-16.14.58:492][578]LogEditorTransaction: Undo Create Pin Link
+[2022.10.13-16.14.58:688][589]LogEditorTransaction: Undo Move Node
+[2022.10.13-16.15.00:458][773]LogEditorTransaction: Undo Move Node
+[2022.10.13-16.15.00:634][785]LogEditorTransaction: Undo Move Node
+[2022.10.13-16.15.00:887][805]LogEditorTransaction: Undo Delete current selection
+[2022.10.13-16.15.01:077][818]LogEditorTransaction: Undo Delete current selection
+[2022.10.13-16.15.01:519][860]LogEditorTransaction: Redo Delete current selection
+[2022.10.13-16.15.01:706][873]LogEditorTransaction: Redo Delete current selection
+[2022.10.13-16.15.01:870][883]LogEditorTransaction: Redo Move Node
+[2022.10.13-16.15.40:056][119]LogSavePackage: Moving output files for package: /Game/Blueprints/Interactables/BP_Interactable_DoubleDoor
+[2022.10.13-16.15.40:057][119]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/BP_Interactable_DoubleDoorC180BFFE41530E2FFF8753B5281D6D52.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Content/Blueprints/Interactables/BP_Interactable_DoubleDoor.uasset'
+[2022.10.13-16.15.40:078][119]AssetCheck: New page: Asset Save: BP_Interactable_DoubleDoor
+[2022.10.13-16.15.40:078][119]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Interactables/BP_Interactable_DoubleDoor.BP_Interactable_DoubleDoor
+[2022.10.13-16.15.42:893][428]BlueprintLog: New page: Compile BP_Interactable_DoubleDoor
+[2022.10.13-16.15.43:032][428]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
+[2022.10.13-16.15.43:658][473]LogSavePackage: Moving output files for package: /Game/Blueprints/Interactables/BP_Interactable_DoubleDoor
+[2022.10.13-16.15.43:659][473]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/BP_Interactable_DoubleDoor0F8865BA42FC3870646A43AA9A4A0B8B.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Content/Blueprints/Interactables/BP_Interactable_DoubleDoor.uasset'
+[2022.10.13-16.15.43:678][473]AssetCheck: New page: Asset Save: BP_Interactable_DoubleDoor
+[2022.10.13-16.15.43:678][473]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Interactables/BP_Interactable_DoubleDoor.BP_Interactable_DoubleDoor
+[2022.10.13-16.16.15:200][ 65]BlueprintLog: New page: Compile BP_Interactable_DoubleDoor
+[2022.10.13-16.16.15:313][ 65]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2022.10.13-16.16.15:792][ 95]LogSavePackage: Moving output files for package: /Game/Blueprints/Interactables/BP_Interactable_DoubleDoor
+[2022.10.13-16.16.15:793][ 95]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/BP_Interactable_DoubleDoor79385C004F5AA7609E0D66B3EF6D646A.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Content/Blueprints/Interactables/BP_Interactable_DoubleDoor.uasset'
+[2022.10.13-16.16.15:811][ 95]AssetCheck: New page: Asset Save: BP_Interactable_DoubleDoor
+[2022.10.13-16.16.15:811][ 95]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Interactables/BP_Interactable_DoubleDoor.BP_Interactable_DoubleDoor
+[2022.10.13-16.16.21:145][433]Cmd: DELETE
+[2022.10.13-16.16.21:145][433]Cmd: ACTOR DELETE
+[2022.10.13-16.16.21:150][433]LogEditorActor: Deleted Actor: BP_Interactable_Door_C
+[2022.10.13-16.16.21:151][433]LogEditorActor: Deleted Actor: BP_Interactable_Door_C
+[2022.10.13-16.16.21:214][433]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2022.10.13-16.16.21:219][433]LogEditorActor: Deleted 2 Actors (0.074 secs)
+[2022.10.13-16.16.26:130][671]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Interactables/BP_Interactable_DoubleDoor.BP_Interactable_DoubleDoor_C
+[2022.10.13-16.16.26:130][671]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Interactables/BP_Interactable_DoubleDoor.BP_Interactable_DoubleDoor_C
+[2022.10.13-16.16.26:133][671]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Interactables/BP_Interactable_DoubleDoor.BP_Interactable_DoubleDoor as actor: BP_Interactable_DoubleDoor_C /Game/ThirdPerson/Maps/TestMap.TestMap:PersistentLevel.BP_Interactable_DoubleDoor_C_0
+[2022.10.13-16.16.26:136][671]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Interactables/BP_Interactable_DoubleDoor.BP_Interactable_DoubleDoor as actor: BP_Interactable_DoubleDoor_C /Game/ThirdPerson/Maps/TestMap.TestMap:PersistentLevel.BP_Interactable_DoubleDoor_C_0
+[2022.10.13-16.16.27:514][739]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Interactables/BP_Interactable_DoubleDoor.BP_Interactable_DoubleDoor_C
+[2022.10.13-16.16.27:514][739]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Interactables/BP_Interactable_DoubleDoor.BP_Interactable_DoubleDoor_C
+[2022.10.13-16.16.27:517][739]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Interactables/BP_Interactable_DoubleDoor.BP_Interactable_DoubleDoor as actor: BP_Interactable_DoubleDoor_C /Game/ThirdPerson/Maps/TestMap.TestMap:PersistentLevel.BP_Interactable_DoubleDoor_C_1
+[2022.10.13-16.16.27:521][739]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Interactables/BP_Interactable_DoubleDoor.BP_Interactable_DoubleDoor as actor: BP_Interactable_DoubleDoor_C /Game/ThirdPerson/Maps/TestMap.TestMap:PersistentLevel.BP_Interactable_DoubleDoor_C_1
+[2022.10.13-16.16.45:404][772]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Maps/TestMap" FILE="../../../../../UnrealProjects/HorrorPrototype/Content/ThirdPerson/Maps/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.10.13-16.16.45:470][772]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2022.10.13-16.16.45:523][772]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Maps/TestMap
+[2022.10.13-16.16.45:524][772]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/TestMap22CF74B6464B39F083D208A28DA77378.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Content/ThirdPerson/Maps/TestMap.umap'
+[2022.10.13-16.16.45:570][772]AssetCheck: New page: Asset Save: TestMap
+[2022.10.13-16.16.45:570][772]LogContentValidation: Display: Validating World /Game/ThirdPerson/Maps/TestMap.TestMap
+[2022.10.13-16.17.13:127][400]Cmd: MODE GRID=0
+[2022.10.13-16.17.36:487][625]LogSavePackage: Moving output files for package: /Game/Blueprints/Interactables/BP_Interactable_DoubleDoor
+[2022.10.13-16.17.36:488][625]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/BP_Interactable_DoubleDoorFC2B411E40C1A7ADF6E9C289B7A95F88.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Content/Blueprints/Interactables/BP_Interactable_DoubleDoor.uasset'
+[2022.10.13-16.17.36:507][625]AssetCheck: New page: Asset Save: BP_Interactable_DoubleDoor
+[2022.10.13-16.17.36:507][625]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Interactables/BP_Interactable_DoubleDoor.BP_Interactable_DoubleDoor
+[2022.10.13-16.17.36:868][652]BlueprintLog: New page: Compile BP_Interactable_DoubleDoor
+[2022.10.13-16.17.36:987][652]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2022.10.13-16.17.37:516][686]LogSavePackage: Moving output files for package: /Game/Blueprints/Interactables/BP_Interactable_DoubleDoor
+[2022.10.13-16.17.37:517][686]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/BP_Interactable_DoubleDoor468647D54C779D6C258780AECF314D7B.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Content/Blueprints/Interactables/BP_Interactable_DoubleDoor.uasset'
+[2022.10.13-16.17.37:535][686]AssetCheck: New page: Asset Save: BP_Interactable_DoubleDoor
+[2022.10.13-16.17.37:535][686]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Interactables/BP_Interactable_DoubleDoor.BP_Interactable_DoubleDoor
+[2022.10.13-16.17.41:897][ 19]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.10.13-16.17.41:916][ 19]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.13-16.17.41:916][ 19]PIE: New page: PIE session: TestMap (13 Oct 2022, 20:17:41)
+[2022.10.13-16.17.41:948][ 19]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_TestMap
+[2022.10.13-16.17.41:965][ 19]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016900s)
+[2022.10.13-16.17.41:965][ 19]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/TestMap.TestMap to /Game/ThirdPerson/Maps/UEDPIE_0_TestMap.TestMap (0.017038s)
+[2022.10.13-16.17.41:965][ 19]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.13-16.17.41:965][ 19]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.13-16.17.41:965][ 19]LogAIModule: Creating AISystem for world TestMap
+[2022.10.13-16.17.41:966][ 19]LogPlayLevel: PIE: World Init took: (0.001013s)
+[2022.10.13-16.17.42:025][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2022.10.13-16.17.42:030][ 19]LogAudio: Display: Creating Audio Device:                 Id: 33, Scope: Unique, Realtime: True
+[2022.10.13-16.17.42:030][ 19]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.13-16.17.42:030][ 19]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.13-16.17.42:030][ 19]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.13-16.17.42:030][ 19]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.13-16.17.42:030][ 19]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.13-16.17.42:030][ 19]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.13-16.17.42:030][ 19]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.13-16.17.42:030][ 19]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.13-16.17.42:031][ 19]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.10.13-16.17.42:031][ 19]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.10.13-16.17.42:031][ 19]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.13-16.17.42:034][ 19]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.13-16.17.42:073][ 19]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (HyperX Virtual Surround Sound)
+[2022.10.13-16.17.42:073][ 19]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.13-16.17.42:073][ 19]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.13-16.17.42:073][ 19]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.13-16.17.42:074][ 19]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=33
+[2022.10.13-16.17.42:074][ 19]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=33
+[2022.10.13-16.17.42:076][ 19]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=33
+[2022.10.13-16.17.42:076][ 19]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=33
+[2022.10.13-16.17.42:076][ 19]LogInit: FAudioDevice initialized.
+[2022.10.13-16.17.42:076][ 19]LogAudio: Display: Audio Device (ID: 33) registered with world 'TestMap'.
+[2022.10.13-16.17.42:088][ 19]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.10.13-16.17.42:098][ 19]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2022.10.13-18.17.42
+[2022.10.13-16.17.42:098][ 19]LogWorld: Bringing up level for play took: 0.010127
+[2022.10.13-16.17.42:101][ 19]LogOnline: OSS: Created online subsystem instance for: :Context_57
+[2022.10.13-16.17.42:108][ 19]PIE: Server logged in
+[2022.10.13-16.17.42:109][ 19]PIE: Play in editor total start time 0,196 seconds.
+[2022.10.13-16.17.44:128][122]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Added item
+[2022.10.13-16.17.45:386][187]LogBlueprintUserMessages: [BP_Interactable_DoubleDoor_C_1] Successfully Interacted
+[2022.10.13-16.17.49:204][382]LogBlueprintUserMessages: [BP_Interactable_DoubleDoor_C_1] Successfully Interacted
+[2022.10.13-16.17.51:510][500]LogBlueprintUserMessages: [BP_Interactable_DoubleDoor_C_1] Successfully Interacted
+[2022.10.13-16.18.03:569][122]LogBlueprintUserMessages: [BP_Interactable_Door_C_2] Successfully Interacted
+[2022.10.13-16.18.08:919][405]LogBlueprintUserMessages: [BP_Interactable_Door_C_2] Successfully Interacted
+[2022.10.13-16.18.11:357][530]LogBlueprintUserMessages: [BP_Interactable_Door_C_2] Successfully Interacted
+[2022.10.13-16.18.15:872][762]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.13-16.18.15:872][762]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_TestMap
+[2022.10.13-16.18.15:872][762]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2022.10.13-16.18.15:873][762]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.13-16.18.15:898][762]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.13-16.18.15:907][762]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.13-16.18.15:966][762]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.10.13-16.18.15:966][762]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=33
+[2022.10.13-16.18.15:968][762]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=33
+[2022.10.13-16.18.15:972][762]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.13-16.18.15:977][762]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2022.10.13-16.18.16:037][763]LogPlayLevel: Display: Destroying online subsystem :Context_57
+[2022.10.13-16.18.31:460][915]LogViewport: Scene viewport resized to 1141x691, mode Windowed.
+[2022.10.13-16.27.19:786][865]LogUObjectHash: Compacting FUObjectHashTables data took   2.79ms
+[2022.10.13-16.27.19:844][865]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Maps/TestMap_Auto5
+[2022.10.13-16.27.19:844][865]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/TestMap_Auto5C86988E44BDBA7BD01E60D8F25FF3F63.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Saved/Autosaves/Game/ThirdPerson/Maps/TestMap_Auto5.umap'
+[2022.10.13-16.27.19:852][865]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/TestMap' took 0.142
+[2022.10.13-16.27.19:852][865]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.142
+[2022.10.13-16.33.32:148][512]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.10.13-16.33.32:161][512]LogContentBrowser: Creating deferred item: NewFolder
+[2022.10.13-16.33.32:177][513]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2022.10.13-16.33.33:169][595]LogContentBrowser: Attempting asset rename: NewFolder -> Door
+[2022.10.13-16.33.33:180][595]LogContentBrowser: End creating deferred item NewFolder
+[2022.10.13-16.33.47:555][858]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\Axel\Music\Game Sounds\RawSFX\downloaded\Door\DoorClosing_1.wav)
+[2022.10.13-16.33.47:565][858]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_-10-1-1-1-1-1 wave DoorClosing_1...
+[2022.10.13-16.33.47:565][858]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/Sounds/SFX/Door/DoorClosing_1.DoorClosing_1 will be modified from 40 to 40.
+[2022.10.13-16.33.47:580][858]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 157072 while cooking SoundWave /Game/Sounds/SFX/Door/DoorClosing_1.DoorClosing_1.
+[2022.10.13-16.33.47:580][858]LogAudio: Display: Chunk size for SoundWave /Game/Sounds/SFX/Door/DoorClosing_1.DoorClosing_1: 262144
+[2022.10.13-16.33.47:582][858]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\Axel\Music\Game Sounds\RawSFX\downloaded\Door\DoorClosing_2.wav)
+[2022.10.13-16.33.47:583][858]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_-10-1-1-1-1-1 wave DoorClosing_2...
+[2022.10.13-16.33.47:583][858]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/Sounds/SFX/Door/DoorClosing_2.DoorClosing_2 will be modified from 40 to 40.
+[2022.10.13-16.33.47:588][858]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 60452 while cooking SoundWave /Game/Sounds/SFX/Door/DoorClosing_2.DoorClosing_2.
+[2022.10.13-16.33.47:588][858]LogAudio: Display: Chunk size for SoundWave /Game/Sounds/SFX/Door/DoorClosing_2.DoorClosing_2: 262144
+[2022.10.13-16.33.47:591][858]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\Axel\Music\Game Sounds\RawSFX\downloaded\Door\DoorCreak.wav)
+[2022.10.13-16.33.47:593][858]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_-10-1-1-1-1-1 wave DoorCreak...
+[2022.10.13-16.33.47:594][858]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/Sounds/SFX/Door/DoorCreak.DoorCreak will be modified from 40 to 40.
+[2022.10.13-16.33.47:626][858]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 417532 while cooking SoundWave /Game/Sounds/SFX/Door/DoorCreak.DoorCreak.
+[2022.10.13-16.33.47:626][858]LogAudio: Display: Chunk size for SoundWave /Game/Sounds/SFX/Door/DoorCreak.DoorCreak: 262144
+[2022.10.13-16.33.47:628][858]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\Axel\Music\Game Sounds\RawSFX\downloaded\Door\DoorknobTurning.wav)
+[2022.10.13-16.33.47:629][858]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_-10-1-1-1-1-1 wave DoorknobTurning...
+[2022.10.13-16.33.47:629][858]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/Sounds/SFX/Door/DoorknobTurning.DoorknobTurning will be modified from 40 to 40.
+[2022.10.13-16.33.47:633][858]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 52792 while cooking SoundWave /Game/Sounds/SFX/Door/DoorknobTurning.DoorknobTurning.
+[2022.10.13-16.33.47:633][858]LogAudio: Display: Chunk size for SoundWave /Game/Sounds/SFX/Door/DoorknobTurning.DoorknobTurning: 262144
+[2022.10.13-16.33.47:636][858]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\Axel\Music\Game Sounds\RawSFX\downloaded\Door\DoorSqueak.wav)
+[2022.10.13-16.33.47:639][858]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_-10-1-1-1-1-1 wave DoorSqueak...
+[2022.10.13-16.33.47:639][858]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/Sounds/SFX/Door/DoorSqueak.DoorSqueak will be modified from 40 to 40.
+[2022.10.13-16.33.47:679][858]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 520152 while cooking SoundWave /Game/Sounds/SFX/Door/DoorSqueak.DoorSqueak.
+[2022.10.13-16.33.47:679][858]LogAudio: Display: Chunk size for SoundWave /Game/Sounds/SFX/Door/DoorSqueak.DoorSqueak: 262144
+[2022.10.13-16.33.47:681][858]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\Axel\Music\Game Sounds\RawSFX\downloaded\Door\DoorUnlock_1.wav)
+[2022.10.13-16.33.47:683][858]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_-10-1-1-1-1-1 wave DoorUnlock_1...
+[2022.10.13-16.33.47:683][858]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/Sounds/SFX/Door/DoorUnlock_1.DoorUnlock_1 will be modified from 40 to 40.
+[2022.10.13-16.33.47:694][858]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 149044 while cooking SoundWave /Game/Sounds/SFX/Door/DoorUnlock_1.DoorUnlock_1.
+[2022.10.13-16.33.47:695][858]LogAudio: Display: Chunk size for SoundWave /Game/Sounds/SFX/Door/DoorUnlock_1.DoorUnlock_1: 262144
+[2022.10.13-16.33.47:697][858]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SGraphPanel [SGraphEditorImpl.cpp(668)].
+[2022.10.13-16.33.52:430][ 41]LogAssetEditorSubsystem: Opening Asset editor for SoundWave /Game/Sounds/SFX/Door/DoorClosing_1.DoorClosing_1
+[2022.10.13-16.34.19:480][895]LogContentBrowser: Deferred new asset file creation: DoorUnlock_1_Cue
+[2022.10.13-16.34.19:495][895]LogContentBrowser: Creating deferred item: DoorUnlock_1_Cue
+[2022.10.13-16.34.19:505][896]LogContentBrowser: Renaming the item being created (Deferred Item: DoorUnlock_1_Cue).
+[2022.10.13-16.34.21:191][ 98]LogContentBrowser: Attempting asset rename: DoorUnlock_1_Cue -> DoorUnlock_1_Cue
+[2022.10.13-16.34.21:193][ 98]LogContentBrowser: End creating deferred item DoorUnlock_1_Cue
+[2022.10.13-16.34.29:527][994]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.10.13-16.34.29:527][994]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.10.13-16.34.30:938][133]LogContentBrowser: Deferred new asset file creation: DoorSqueak_Cue
+[2022.10.13-16.34.30:957][133]LogContentBrowser: Creating deferred item: DoorSqueak_Cue
+[2022.10.13-16.34.30:967][134]LogContentBrowser: Renaming the item being created (Deferred Item: DoorSqueak_Cue).
+[2022.10.13-16.34.32:370][299]LogContentBrowser: Attempting asset rename: DoorSqueak_Cue -> DoorSqueak_Cue
+[2022.10.13-16.34.32:372][299]LogAudio: Display: Cached duration for Sound Cue SoundCue /Game/Sounds/SFX/Door/DoorSqueak_Cue.DoorSqueak_Cue was zero and has changed. Consider manually Re-saving the asset
+[2022.10.13-16.34.32:374][299]LogContentBrowser: End creating deferred item DoorSqueak_Cue
+[2022.10.13-16.34.35:847][660]LogContentBrowser: Deferred new asset file creation: DoorknobTurning_Cue
+[2022.10.13-16.34.35:863][660]LogContentBrowser: Creating deferred item: DoorknobTurning_Cue
+[2022.10.13-16.34.35:872][661]LogContentBrowser: Renaming the item being created (Deferred Item: DoorknobTurning_Cue).
+[2022.10.13-16.34.36:618][750]LogContentBrowser: Attempting asset rename: DoorknobTurning_Cue -> DoorknobTurning_Cue
+[2022.10.13-16.34.36:620][750]LogContentBrowser: End creating deferred item DoorknobTurning_Cue
+[2022.10.13-16.34.40:508][151]LogContentBrowser: Deferred new asset file creation: DoorClosing_2_Cue
+[2022.10.13-16.34.40:517][151]LogContentBrowser: Creating deferred item: DoorClosing_2_Cue
+[2022.10.13-16.34.40:527][152]LogContentBrowser: Renaming the item being created (Deferred Item: DoorClosing_2_Cue).
+[2022.10.13-16.34.41:864][311]LogContentBrowser: Attempting asset rename: DoorClosing_2_Cue -> DoorClosing_2_Cue
+[2022.10.13-16.34.41:866][311]LogAudio: Display: Cached duration for Sound Cue SoundCue /Game/Sounds/SFX/Door/DoorClosing_2_Cue.DoorClosing_2_Cue was zero and has changed. Consider manually Re-saving the asset
+[2022.10.13-16.34.41:868][311]LogContentBrowser: End creating deferred item DoorClosing_2_Cue
+[2022.10.13-16.34.44:114][575]LogContentBrowser: Attempting asset rename: DoorClosing_2_Cue -> DoorClosing_2_Cue
+[2022.10.13-16.34.50:643][286]LogMetaData: Removing '/Game/Sounds/Cues/DoorClosing_2_Cue.DoorClosing_2_Cue:SoundCueGraph_0.SoundCueGraphNode_Root_0' ref from Metadata '/Game/Sounds/SFX/Door/DoorClosing_2_Cue.PackageMetaData'
+[2022.10.13-16.34.50:646][286]LogMetaData: Removing '/Game/Sounds/Cues/DoorknobTurning_Cue.DoorknobTurning_Cue:SoundCueGraph_0.SoundCueGraphNode_Root_0' ref from Metadata '/Game/Sounds/SFX/Door/DoorknobTurning_Cue.PackageMetaData'
+[2022.10.13-16.34.50:648][286]LogMetaData: Removing '/Game/Sounds/Cues/DoorSqueak_Cue.DoorSqueak_Cue:SoundCueGraph_0.SoundCueGraphNode_Root_0' ref from Metadata '/Game/Sounds/SFX/Door/DoorSqueak_Cue.PackageMetaData'
+[2022.10.13-16.34.50:650][286]LogMetaData: Removing '/Game/Sounds/Cues/DoorUnlock_1_Cue.DoorUnlock_1_Cue:SoundCueGraph_0.SoundCueGraphNode_Root_0' ref from Metadata '/Game/Sounds/SFX/Door/DoorUnlock_1_Cue.PackageMetaData'
+[2022.10.13-16.34.50:700][286]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/Cues/DoorClosing_2_Cue" FILE="../../../../../UnrealProjects/HorrorPrototype/Content/Sounds/Cues/DoorClosing_2_Cue.uasset" SILENT=true
+[2022.10.13-16.34.50:702][286]LogSavePackage: Moving output files for package: /Game/Sounds/Cues/DoorClosing_2_Cue
+[2022.10.13-16.34.50:702][286]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/DoorClosing_2_Cue811392EF4DA1E186F79307A98F9223B0.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Content/Sounds/Cues/DoorClosing_2_Cue.uasset'
+[2022.10.13-16.34.50:704][286]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/Cues/DoorknobTurning_Cue" FILE="../../../../../UnrealProjects/HorrorPrototype/Content/Sounds/Cues/DoorknobTurning_Cue.uasset" SILENT=true
+[2022.10.13-16.34.50:705][286]LogSavePackage: Moving output files for package: /Game/Sounds/Cues/DoorknobTurning_Cue
+[2022.10.13-16.34.50:705][286]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/DoorknobTurning_CueC8632C2240FB357380734E805A407FFA.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Content/Sounds/Cues/DoorknobTurning_Cue.uasset'
+[2022.10.13-16.34.50:706][286]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/Cues/DoorSqueak_Cue" FILE="../../../../../UnrealProjects/HorrorPrototype/Content/Sounds/Cues/DoorSqueak_Cue.uasset" SILENT=true
+[2022.10.13-16.34.50:734][286]LogSavePackage: Moving output files for package: /Game/Sounds/Cues/DoorSqueak_Cue
+[2022.10.13-16.34.50:734][286]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/DoorSqueak_CueACD3F4B04DA09B8A1BF85CB2E115BCEE.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Content/Sounds/Cues/DoorSqueak_Cue.uasset'
+[2022.10.13-16.34.50:735][286]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/Cues/DoorUnlock_1_Cue" FILE="../../../../../UnrealProjects/HorrorPrototype/Content/Sounds/Cues/DoorUnlock_1_Cue.uasset" SILENT=true
+[2022.10.13-16.34.50:737][286]LogSavePackage: Moving output files for package: /Game/Sounds/Cues/DoorUnlock_1_Cue
+[2022.10.13-16.34.50:737][286]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/DoorUnlock_1_CueE377704C4C07C9CCEF2D54975807D4D4.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Content/Sounds/Cues/DoorUnlock_1_Cue.uasset'
+[2022.10.13-16.34.50:932][286]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2022.10.13-16.34.50:995][286]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2022.10.13-16.34.51:055][286]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2022.10.13-16.34.51:079][286]AssetCheck: New page: Asset Save: multiple assets
+[2022.10.13-16.34.51:079][286]LogContentValidation: Display: Validating SoundCue /Game/Sounds/Cues/DoorClosing_2_Cue.DoorClosing_2_Cue
+[2022.10.13-16.34.51:079][286]LogContentValidation: Display: Validating SoundCue /Game/Sounds/Cues/DoorknobTurning_Cue.DoorknobTurning_Cue
+[2022.10.13-16.34.51:079][286]LogContentValidation: Display: Validating SoundCue /Game/Sounds/Cues/DoorSqueak_Cue.DoorSqueak_Cue
+[2022.10.13-16.34.51:079][286]LogContentValidation: Display: Validating SoundCue /Game/Sounds/Cues/DoorUnlock_1_Cue.DoorUnlock_1_Cue
+[2022.10.13-16.34.53:038][495]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/SFX/Door/DoorUnlock_1" FILE="../../../../../UnrealProjects/HorrorPrototype/Content/Sounds/SFX/Door/DoorUnlock_1.uasset" SILENT=true
+[2022.10.13-16.34.53:040][495]LogSavePackage: Moving output files for package: /Game/Sounds/SFX/Door/DoorUnlock_1
+[2022.10.13-16.34.53:040][495]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/DoorUnlock_115B139804B3608AF50E84D84ECB9C4DA.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Content/Sounds/SFX/Door/DoorUnlock_1.uasset'
+[2022.10.13-16.34.53:043][495]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/SFX/Door/DoorClosing_1" FILE="../../../../../UnrealProjects/HorrorPrototype/Content/Sounds/SFX/Door/DoorClosing_1.uasset" SILENT=true
+[2022.10.13-16.34.53:045][495]LogSavePackage: Moving output files for package: /Game/Sounds/SFX/Door/DoorClosing_1
+[2022.10.13-16.34.53:045][495]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/DoorClosing_17C51274E42E9B3B27E55D3BFA8A2E904.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Content/Sounds/SFX/Door/DoorClosing_1.uasset'
+[2022.10.13-16.34.53:048][495]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/SFX/Door/DoorClosing_2" FILE="../../../../../UnrealProjects/HorrorPrototype/Content/Sounds/SFX/Door/DoorClosing_2.uasset" SILENT=true
+[2022.10.13-16.34.53:050][495]LogSavePackage: Moving output files for package: /Game/Sounds/SFX/Door/DoorClosing_2
+[2022.10.13-16.34.53:050][495]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/DoorClosing_279000476461EFFBABA6E399A2A07208D.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Content/Sounds/SFX/Door/DoorClosing_2.uasset'
+[2022.10.13-16.34.53:054][495]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/SFX/Door/DoorCreak" FILE="../../../../../UnrealProjects/HorrorPrototype/Content/Sounds/SFX/Door/DoorCreak.uasset" SILENT=true
+[2022.10.13-16.34.53:060][495]LogSavePackage: Moving output files for package: /Game/Sounds/SFX/Door/DoorCreak
+[2022.10.13-16.34.53:060][495]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/DoorCreak309872B141C3EC66B9EA34A412A88D68.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Content/Sounds/SFX/Door/DoorCreak.uasset'
+[2022.10.13-16.34.53:064][495]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/SFX/Door/DoorknobTurning" FILE="../../../../../UnrealProjects/HorrorPrototype/Content/Sounds/SFX/Door/DoorknobTurning.uasset" SILENT=true
+[2022.10.13-16.34.53:065][495]LogSavePackage: Moving output files for package: /Game/Sounds/SFX/Door/DoorknobTurning
+[2022.10.13-16.34.53:065][495]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/DoorknobTurningDDE7EEAF4557E1BEC3829CA0D48D5A75.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Content/Sounds/SFX/Door/DoorknobTurning.uasset'
+[2022.10.13-16.34.53:069][495]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/SFX/Door/DoorSqueak" FILE="../../../../../UnrealProjects/HorrorPrototype/Content/Sounds/SFX/Door/DoorSqueak.uasset" SILENT=true
+[2022.10.13-16.34.53:071][495]LogSavePackage: Moving output files for package: /Game/Sounds/SFX/Door/DoorSqueak
+[2022.10.13-16.34.53:071][495]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/DoorSqueak2375637D43FC0E862693348E803CB923.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Content/Sounds/SFX/Door/DoorSqueak.uasset'
+[2022.10.13-16.34.53:091][495]AssetCheck: New page: Asset Save: multiple assets
+[2022.10.13-16.34.53:091][495]LogContentValidation: Display: Validating SoundWave /Game/Sounds/SFX/Door/DoorUnlock_1.DoorUnlock_1
+[2022.10.13-16.34.53:091][495]LogContentValidation: Display: Validating SoundWave /Game/Sounds/SFX/Door/DoorSqueak.DoorSqueak
+[2022.10.13-16.34.53:091][495]LogContentValidation: Display: Validating SoundWave /Game/Sounds/SFX/Door/DoorknobTurning.DoorknobTurning
+[2022.10.13-16.34.53:091][495]LogContentValidation: Display: Validating SoundWave /Game/Sounds/SFX/Door/DoorCreak.DoorCreak
+[2022.10.13-16.34.53:091][495]LogContentValidation: Display: Validating SoundWave /Game/Sounds/SFX/Door/DoorClosing_2.DoorClosing_2
+[2022.10.13-16.34.53:091][495]LogContentValidation: Display: Validating SoundWave /Game/Sounds/SFX/Door/DoorClosing_1.DoorClosing_1
+[2022.10.13-16.34.57:672][960]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.10.13-16.34.57:679][960]LogContentBrowser: Creating deferred item: NewFolder
+[2022.10.13-16.34.57:689][961]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2022.10.13-16.34.58:601][ 71]LogContentBrowser: Attempting asset rename: NewFolder -> Door
+[2022.10.13-16.34.58:602][ 71]LogContentBrowser: End creating deferred item NewFolder
+[2022.10.13-16.35.04:764][767]LogMetaData: Removing '/Game/Sounds/Cues/Door/DoorClosing_2_Cue.DoorClosing_2_Cue:SoundCueGraph_0.SoundCueGraphNode_Root_0' ref from Metadata '/Game/Sounds/Cues/DoorClosing_2_Cue.PackageMetaData'
+[2022.10.13-16.35.04:766][767]LogMetaData: Removing '/Game/Sounds/Cues/Door/DoorknobTurning_Cue.DoorknobTurning_Cue:SoundCueGraph_0.SoundCueGraphNode_Root_0' ref from Metadata '/Game/Sounds/Cues/DoorknobTurning_Cue.PackageMetaData'
+[2022.10.13-16.35.04:768][767]LogMetaData: Removing '/Game/Sounds/Cues/Door/DoorSqueak_Cue.DoorSqueak_Cue:SoundCueGraph_0.SoundCueGraphNode_Root_0' ref from Metadata '/Game/Sounds/Cues/DoorSqueak_Cue.PackageMetaData'
+[2022.10.13-16.35.04:770][767]LogMetaData: Removing '/Game/Sounds/Cues/Door/DoorUnlock_1_Cue.DoorUnlock_1_Cue:SoundCueGraph_0.SoundCueGraphNode_Root_0' ref from Metadata '/Game/Sounds/Cues/DoorUnlock_1_Cue.PackageMetaData'
+[2022.10.13-16.35.04:832][767]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/Cues/Door/DoorClosing_2_Cue" FILE="../../../../../UnrealProjects/HorrorPrototype/Content/Sounds/Cues/Door/DoorClosing_2_Cue.uasset" SILENT=true
+[2022.10.13-16.35.04:834][767]LogSavePackage: Moving output files for package: /Game/Sounds/Cues/Door/DoorClosing_2_Cue
+[2022.10.13-16.35.04:834][767]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/DoorClosing_2_Cue7A77DEC44DA5C55E9BB01498EC5CA6B0.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Content/Sounds/Cues/Door/DoorClosing_2_Cue.uasset'
+[2022.10.13-16.35.04:835][767]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/Cues/Door/DoorknobTurning_Cue" FILE="../../../../../UnrealProjects/HorrorPrototype/Content/Sounds/Cues/Door/DoorknobTurning_Cue.uasset" SILENT=true
+[2022.10.13-16.35.04:837][767]LogSavePackage: Moving output files for package: /Game/Sounds/Cues/Door/DoorknobTurning_Cue
+[2022.10.13-16.35.04:837][767]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/DoorknobTurning_CueECDC9A194EAD09B2FA54DFBE2A37613A.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Content/Sounds/Cues/Door/DoorknobTurning_Cue.uasset'
+[2022.10.13-16.35.04:838][767]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/Cues/Door/DoorSqueak_Cue" FILE="../../../../../UnrealProjects/HorrorPrototype/Content/Sounds/Cues/Door/DoorSqueak_Cue.uasset" SILENT=true
+[2022.10.13-16.35.04:840][767]LogSavePackage: Moving output files for package: /Game/Sounds/Cues/Door/DoorSqueak_Cue
+[2022.10.13-16.35.04:841][767]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/DoorSqueak_Cue970E233348B407A3736C74B68951B03B.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Content/Sounds/Cues/Door/DoorSqueak_Cue.uasset'
+[2022.10.13-16.35.04:842][767]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/Cues/Door/DoorUnlock_1_Cue" FILE="../../../../../UnrealProjects/HorrorPrototype/Content/Sounds/Cues/Door/DoorUnlock_1_Cue.uasset" SILENT=true
+[2022.10.13-16.35.04:843][767]LogSavePackage: Moving output files for package: /Game/Sounds/Cues/Door/DoorUnlock_1_Cue
+[2022.10.13-16.35.04:844][767]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/DoorUnlock_1_Cue539BBE954F0DE28443FC07B31214E08B.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Content/Sounds/Cues/Door/DoorUnlock_1_Cue.uasset'
+[2022.10.13-16.35.05:040][767]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2022.10.13-16.35.05:103][767]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2022.10.13-16.35.05:164][767]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2022.10.13-16.35.05:188][767]AssetCheck: New page: Asset Save: multiple assets
+[2022.10.13-16.35.05:188][767]LogContentValidation: Display: Validating SoundCue /Game/Sounds/Cues/Door/DoorClosing_2_Cue.DoorClosing_2_Cue
+[2022.10.13-16.35.05:188][767]LogContentValidation: Display: Validating SoundCue /Game/Sounds/Cues/Door/DoorknobTurning_Cue.DoorknobTurning_Cue
+[2022.10.13-16.35.05:188][767]LogContentValidation: Display: Validating SoundCue /Game/Sounds/Cues/Door/DoorSqueak_Cue.DoorSqueak_Cue
+[2022.10.13-16.35.05:188][767]LogContentValidation: Display: Validating SoundCue /Game/Sounds/Cues/Door/DoorUnlock_1_Cue.DoorUnlock_1_Cue
+[2022.10.13-16.35.09:163][226]LogAssetEditorSubsystem: Opening Asset editor for SoundCue /Game/Sounds/Cues/Door/DoorClosing_2_Cue.DoorClosing_2_Cue
+[2022.10.13-16.35.20:595][551]LogAssetEditorSubsystem: Opening Asset editor for SoundCue /Game/Sounds/Cues/Door/DoorknobTurning_Cue.DoorknobTurning_Cue
+[2022.10.13-16.35.25:739][130]LogAssetEditorSubsystem: Opening Asset editor for SoundCue /Game/Sounds/Cues/Door/DoorSqueak_Cue.DoorSqueak_Cue
+[2022.10.13-16.35.29:943][594]LogAssetEditorSubsystem: Opening Asset editor for SoundCue /Game/Sounds/Cues/Door/DoorUnlock_1_Cue.DoorUnlock_1_Cue
+[2022.10.13-16.35.33:961][ 38]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/Cues/Door/DoorUnlock_1_Cue" FILE="../../../../../UnrealProjects/HorrorPrototype/Content/Sounds/Cues/Door/DoorUnlock_1_Cue.uasset" SILENT=true
+[2022.10.13-16.35.33:963][ 38]LogSavePackage: Moving output files for package: /Game/Sounds/Cues/Door/DoorUnlock_1_Cue
+[2022.10.13-16.35.33:964][ 38]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/DoorUnlock_1_CueBC2353754CF2432BF5C132A6FCEE0F66.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Content/Sounds/Cues/Door/DoorUnlock_1_Cue.uasset'
+[2022.10.13-16.35.33:982][ 38]AssetCheck: New page: Asset Save: DoorUnlock_1_Cue
+[2022.10.13-16.35.33:983][ 38]LogContentValidation: Display: Validating SoundCue /Game/Sounds/Cues/Door/DoorUnlock_1_Cue.DoorUnlock_1_Cue
+[2022.10.13-16.35.37:631][465]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/Cues/Door/DoorSqueak_Cue" FILE="../../../../../UnrealProjects/HorrorPrototype/Content/Sounds/Cues/Door/DoorSqueak_Cue.uasset" SILENT=true
+[2022.10.13-16.35.37:633][465]LogSavePackage: Moving output files for package: /Game/Sounds/Cues/Door/DoorSqueak_Cue
+[2022.10.13-16.35.37:634][465]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/DoorSqueak_CueBD4134A34A3615AFBDB117B4922495F2.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Content/Sounds/Cues/Door/DoorSqueak_Cue.uasset'
+[2022.10.13-16.35.37:652][465]AssetCheck: New page: Asset Save: DoorSqueak_Cue
+[2022.10.13-16.35.37:652][465]LogContentValidation: Display: Validating SoundCue /Game/Sounds/Cues/Door/DoorSqueak_Cue.DoorSqueak_Cue
+[2022.10.13-16.35.41:586][920]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/Cues/Door/DoorknobTurning_Cue" FILE="../../../../../UnrealProjects/HorrorPrototype/Content/Sounds/Cues/Door/DoorknobTurning_Cue.uasset" SILENT=true
+[2022.10.13-16.35.41:588][920]LogSavePackage: Moving output files for package: /Game/Sounds/Cues/Door/DoorknobTurning_Cue
+[2022.10.13-16.35.41:588][920]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/DoorknobTurning_Cue49D5C3C440F6962371B97CBB5621E407.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Content/Sounds/Cues/Door/DoorknobTurning_Cue.uasset'
+[2022.10.13-16.35.41:607][920]AssetCheck: New page: Asset Save: DoorknobTurning_Cue
+[2022.10.13-16.35.41:607][920]LogContentValidation: Display: Validating SoundCue /Game/Sounds/Cues/Door/DoorknobTurning_Cue.DoorknobTurning_Cue
+[2022.10.13-16.35.42:955][ 75]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/Cues/Door/DoorSqueak_Cue" FILE="../../../../../UnrealProjects/HorrorPrototype/Content/Sounds/Cues/Door/DoorSqueak_Cue.uasset" SILENT=true
+[2022.10.13-16.35.42:957][ 75]LogSavePackage: Moving output files for package: /Game/Sounds/Cues/Door/DoorSqueak_Cue
+[2022.10.13-16.35.42:958][ 75]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/DoorSqueak_Cue5899EC1F454897BCB87045B16A610884.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Content/Sounds/Cues/Door/DoorSqueak_Cue.uasset'
+[2022.10.13-16.35.42:978][ 75]AssetCheck: New page: Asset Save: DoorSqueak_Cue
+[2022.10.13-16.35.42:978][ 75]LogContentValidation: Display: Validating SoundCue /Game/Sounds/Cues/Door/DoorSqueak_Cue.DoorSqueak_Cue
+[2022.10.13-16.35.45:172][330]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/Cues/Door/DoorClosing_2_Cue" FILE="../../../../../UnrealProjects/HorrorPrototype/Content/Sounds/Cues/Door/DoorClosing_2_Cue.uasset" SILENT=true
+[2022.10.13-16.35.45:174][330]LogSavePackage: Moving output files for package: /Game/Sounds/Cues/Door/DoorClosing_2_Cue
+[2022.10.13-16.35.45:175][330]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/DoorClosing_2_Cue3666CB21429ED9F2AE3557AF7211E8CA.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Content/Sounds/Cues/Door/DoorClosing_2_Cue.uasset'
+[2022.10.13-16.35.45:195][330]AssetCheck: New page: Asset Save: DoorClosing_2_Cue
+[2022.10.13-16.35.45:195][330]LogContentValidation: Display: Validating SoundCue /Game/Sounds/Cues/Door/DoorClosing_2_Cue.DoorClosing_2_Cue
+[2022.10.13-16.35.46:339][465]LogEditorTransaction: Undo Move Node
+[2022.10.13-16.35.49:026][715]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/Cues/Door/DoorClosing_2_Cue" FILE="../../../../../UnrealProjects/HorrorPrototype/Content/Sounds/Cues/Door/DoorClosing_2_Cue.uasset" SILENT=true
+[2022.10.13-16.35.49:028][715]LogSavePackage: Moving output files for package: /Game/Sounds/Cues/Door/DoorClosing_2_Cue
+[2022.10.13-16.35.49:029][715]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/DoorClosing_2_CueBE88874642B7F03695A26DA0EA8A6C9A.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Content/Sounds/Cues/Door/DoorClosing_2_Cue.uasset'
+[2022.10.13-16.35.49:049][715]AssetCheck: New page: Asset Save: DoorClosing_2_Cue
+[2022.10.13-16.35.49:049][715]LogContentValidation: Display: Validating SoundCue /Game/Sounds/Cues/Door/DoorClosing_2_Cue.DoorClosing_2_Cue
+[2022.10.13-16.36.15:590][185]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/CustomCharacter/PlayerCharacter/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2022.10.13-16.36.15:590][185]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.13-16.39.48:424][224]LogUObjectHash: Compacting FUObjectHashTables data took   4.76ms
+[2022.10.13-16.39.48:482][224]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Maps/TestMap_Auto6
+[2022.10.13-16.39.48:482][224]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/TestMap_Auto62187C6A44BD5A961BF01DEBDAC78DEBE.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Saved/Autosaves/Game/ThirdPerson/Maps/TestMap_Auto6.umap'
+[2022.10.13-16.39.48:494][224]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/TestMap' took 0.208
+[2022.10.13-16.39.48:494][224]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.208
+[2022.10.13-16.39.48:495][224]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Interactables/BP_Interactable_Door] ([2] browsable assets)...
+[2022.10.13-16.39.48:570][224]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Interactables/BP_Interactable_Door.BP_Interactable_Door]
+[2022.10.13-16.39.48:570][224]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Interactables/BP_Interactable_Door]
+[2022.10.13-16.39.48:606][224]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Interactables/BP_Interactable_Door_Auto6
+[2022.10.13-16.39.48:606][224]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/BP_Interactable_Door_Auto61AB3DFAF4C460B68D2B6EABD5C362D1B.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Saved/Autosaves/Game/Blueprints/Interactables/BP_Interactable_Door_Auto6.uasset'
+[2022.10.13-16.39.48:607][224]LogFileHelpers: Auto-saving content packages took 0.114
+[2022.10.13-16.41.47:237][806]BlueprintLog: New page: Compile BP_Interactable_Door
+[2022.10.13-16.41.47:421][806]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2022.10.13-16.41.47:959][837]LogSavePackage: Moving output files for package: /Game/Blueprints/Interactables/BP_Interactable_Door
+[2022.10.13-16.41.47:960][837]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/BP_Interactable_Door56226E2E4C5BAA7697C958945744F720.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Content/Blueprints/Interactables/BP_Interactable_Door.uasset'
+[2022.10.13-16.41.47:979][837]AssetCheck: New page: Asset Save: BP_Interactable_Door
+[2022.10.13-16.41.47:979][837]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Interactables/BP_Interactable_Door.BP_Interactable_Door
+[2022.10.13-16.44.29:134][ 45]LogEditorTransaction: Undo Paste clipboard contents
+[2022.10.13-16.47.11:997][775]BlueprintLog: New page: Compile BP_Interactable_Door
+[2022.10.13-16.47.12:186][775]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2022.10.13-16.47.12:790][795]LogSavePackage: Moving output files for package: /Game/Blueprints/Interactables/BP_Interactable_Door
+[2022.10.13-16.47.12:791][795]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/BP_Interactable_Door23D8E81B4048E9BF755141AC792BAFFB.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Content/Blueprints/Interactables/BP_Interactable_Door.uasset'
+[2022.10.13-16.47.12:810][795]AssetCheck: New page: Asset Save: BP_Interactable_Door
+[2022.10.13-16.47.12:810][795]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Interactables/BP_Interactable_Door.BP_Interactable_Door
+[2022.10.13-16.47.31:238][970]LogContentBrowser: Attempting asset rename: DoorClosing_2_Cue -> DoorClosing
+[2022.10.13-16.47.31:263][970]LogMetaData: Removing '/Game/Sounds/Cues/Door/DoorClosing.DoorClosing:SoundCueGraph_0.SoundCueGraphNode_Root_0' ref from Metadata '/Game/Sounds/Cues/Door/DoorClosing_2_Cue.PackageMetaData'
+[2022.10.13-16.47.31:303][970]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/Cues/Door/DoorClosing" FILE="../../../../../UnrealProjects/HorrorPrototype/Content/Sounds/Cues/Door/DoorClosing.uasset" SILENT=true
+[2022.10.13-16.47.31:305][970]LogSavePackage: Moving output files for package: /Game/Sounds/Cues/Door/DoorClosing
+[2022.10.13-16.47.31:305][970]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/DoorClosingFA8CBE844DC50BCF1BEE358DE9AA5E5C.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Content/Sounds/Cues/Door/DoorClosing.uasset'
+[2022.10.13-16.47.31:419][970]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2022.10.13-16.47.31:489][970]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2022.10.13-16.47.31:555][970]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2022.10.13-16.47.31:566][970]AssetCheck: New page: Asset Save: DoorClosing
+[2022.10.13-16.47.31:566][970]LogContentValidation: Display: Validating SoundCue /Game/Sounds/Cues/Door/DoorClosing.DoorClosing
+[2022.10.13-16.47.36:717][289]LogContentBrowser: Attempting asset rename: DoorknobTurning_Cue -> DoorknobTurning
+[2022.10.13-16.47.36:742][289]LogMetaData: Removing '/Game/Sounds/Cues/Door/DoorknobTurning.DoorknobTurning:SoundCueGraph_0.SoundCueGraphNode_Root_0' ref from Metadata '/Game/Sounds/Cues/Door/DoorknobTurning_Cue.PackageMetaData'
+[2022.10.13-16.47.36:792][289]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/Cues/Door/DoorknobTurning" FILE="../../../../../UnrealProjects/HorrorPrototype/Content/Sounds/Cues/Door/DoorknobTurning.uasset" SILENT=true
+[2022.10.13-16.47.36:794][289]LogSavePackage: Moving output files for package: /Game/Sounds/Cues/Door/DoorknobTurning
+[2022.10.13-16.47.36:794][289]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/DoorknobTurning737301A849DE369F821820A4259CD280.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Content/Sounds/Cues/Door/DoorknobTurning.uasset'
+[2022.10.13-16.47.36:902][289]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2022.10.13-16.47.36:971][289]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2022.10.13-16.47.37:037][289]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2022.10.13-16.47.37:048][289]AssetCheck: New page: Asset Save: DoorknobTurning
+[2022.10.13-16.47.37:048][289]LogContentValidation: Display: Validating SoundCue /Game/Sounds/Cues/Door/DoorknobTurning.DoorknobTurning
+[2022.10.13-16.47.40:295][492]LogContentBrowser: Attempting asset rename: DoorSqueak_Cue -> DoorSqueak
+[2022.10.13-16.47.40:319][492]LogMetaData: Removing '/Game/Sounds/Cues/Door/DoorSqueak.DoorSqueak:SoundCueGraph_0.SoundCueGraphNode_Root_0' ref from Metadata '/Game/Sounds/Cues/Door/DoorSqueak_Cue.PackageMetaData'
+[2022.10.13-16.47.40:363][492]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/Cues/Door/DoorSqueak" FILE="../../../../../UnrealProjects/HorrorPrototype/Content/Sounds/Cues/Door/DoorSqueak.uasset" SILENT=true
+[2022.10.13-16.47.40:365][492]LogSavePackage: Moving output files for package: /Game/Sounds/Cues/Door/DoorSqueak
+[2022.10.13-16.47.40:365][492]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/DoorSqueak71229EA7452298E167C56F8DB4614CD6.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Content/Sounds/Cues/Door/DoorSqueak.uasset'
+[2022.10.13-16.47.40:474][492]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2022.10.13-16.47.40:542][492]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2022.10.13-16.47.40:608][492]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2022.10.13-16.47.40:619][492]AssetCheck: New page: Asset Save: DoorSqueak
+[2022.10.13-16.47.40:619][492]LogContentValidation: Display: Validating SoundCue /Game/Sounds/Cues/Door/DoorSqueak.DoorSqueak
+[2022.10.13-16.47.44:005][706]LogContentBrowser: Attempting asset rename: DoorUnlock_1_Cue -> DoorUnlock
+[2022.10.13-16.47.44:029][706]LogMetaData: Removing '/Game/Sounds/Cues/Door/DoorUnlock.DoorUnlock:SoundCueGraph_0.SoundCueGraphNode_Root_0' ref from Metadata '/Game/Sounds/Cues/Door/DoorUnlock_1_Cue.PackageMetaData'
+[2022.10.13-16.47.44:082][706]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/Cues/Door/DoorUnlock" FILE="../../../../../UnrealProjects/HorrorPrototype/Content/Sounds/Cues/Door/DoorUnlock.uasset" SILENT=true
+[2022.10.13-16.47.44:084][706]LogSavePackage: Moving output files for package: /Game/Sounds/Cues/Door/DoorUnlock
+[2022.10.13-16.47.44:084][706]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/DoorUnlock8444221A41755D0654E3A18E5B72F6FE.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Content/Sounds/Cues/Door/DoorUnlock.uasset'
+[2022.10.13-16.47.44:191][706]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2022.10.13-16.47.44:260][706]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2022.10.13-16.47.44:326][706]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2022.10.13-16.47.44:337][706]AssetCheck: New page: Asset Save: DoorUnlock
+[2022.10.13-16.47.44:337][706]LogContentValidation: Display: Validating SoundCue /Game/Sounds/Cues/Door/DoorUnlock.DoorUnlock
+[2022.10.13-16.48.06:610][ 89]BlueprintLog: New page: Compile BP_Interactable_Door
+[2022.10.13-16.48.06:791][ 89]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2022.10.13-16.48.07:311][101]LogSavePackage: Moving output files for package: /Game/Blueprints/Interactables/BP_Interactable_Door
+[2022.10.13-16.48.07:312][101]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/BP_Interactable_Door540257EA4A5C268DA986288EFE448FB8.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Content/Blueprints/Interactables/BP_Interactable_Door.uasset'
+[2022.10.13-16.48.07:330][101]AssetCheck: New page: Asset Save: BP_Interactable_Door
+[2022.10.13-16.48.07:330][101]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Interactables/BP_Interactable_Door.BP_Interactable_Door
+[2022.10.13-16.48.09:321][228]LogSavePackage: Moving output files for package: /Game/Blueprints/Interactables/BP_Interactable_DoubleDoor
+[2022.10.13-16.48.09:322][228]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/BP_Interactable_DoubleDoorA3E9B79B4B53572A5BC523BE7DCC322E.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Content/Blueprints/Interactables/BP_Interactable_DoubleDoor.uasset'
+[2022.10.13-16.48.09:340][228]AssetCheck: New page: Asset Save: BP_Interactable_DoubleDoor
+[2022.10.13-16.48.09:340][228]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Interactables/BP_Interactable_DoubleDoor.BP_Interactable_DoubleDoor
+[2022.10.13-16.48.10:594][316]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Maps/TestMap" FILE="../../../../../UnrealProjects/HorrorPrototype/Content/ThirdPerson/Maps/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.10.13-16.48.10:664][316]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
+[2022.10.13-16.48.10:718][316]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Maps/TestMap
+[2022.10.13-16.48.10:719][316]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/TestMapA3DAA82544A2BDFFECDCC0B1317A48BE.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Content/ThirdPerson/Maps/TestMap.umap'
+[2022.10.13-16.48.10:767][316]AssetCheck: New page: Asset Save: TestMap
+[2022.10.13-16.48.10:767][316]LogContentValidation: Display: Validating World /Game/ThirdPerson/Maps/TestMap.TestMap
+[2022.10.13-16.48.11:387][360]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.10.13-16.48.11:404][360]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.13-16.48.11:404][360]PIE: New page: PIE session: TestMap (13 Oct 2022, 20:48:11)
+[2022.10.13-16.48.11:404][360]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_TestMap
+[2022.10.13-16.48.11:422][360]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017200s)
+[2022.10.13-16.48.11:422][360]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/TestMap.TestMap to /Game/ThirdPerson/Maps/UEDPIE_0_TestMap.TestMap (0.017306s)
+[2022.10.13-16.48.11:422][360]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.13-16.48.11:422][360]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.13-16.48.11:422][360]LogAIModule: Creating AISystem for world TestMap
+[2022.10.13-16.48.11:423][360]LogPlayLevel: PIE: World Init took: (0.001124s)
+[2022.10.13-16.48.11:490][360]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2022.10.13-16.48.11:492][360]LogAudio: Display: Creating Audio Device:                 Id: 34, Scope: Unique, Realtime: True
+[2022.10.13-16.48.11:492][360]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.13-16.48.11:492][360]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.13-16.48.11:492][360]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.13-16.48.11:492][360]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.13-16.48.11:492][360]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.13-16.48.11:492][360]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.13-16.48.11:492][360]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.13-16.48.11:492][360]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.13-16.48.11:493][360]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.10.13-16.48.11:493][360]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.10.13-16.48.11:493][360]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.13-16.48.11:495][360]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.13-16.48.11:533][360]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (HyperX Virtual Surround Sound)
+[2022.10.13-16.48.11:534][360]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.13-16.48.11:534][360]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.13-16.48.11:534][360]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.13-16.48.11:535][360]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=34
+[2022.10.13-16.48.11:535][360]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=34
+[2022.10.13-16.48.11:537][360]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=34
+[2022.10.13-16.48.11:537][360]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=34
+[2022.10.13-16.48.11:537][360]LogInit: FAudioDevice initialized.
+[2022.10.13-16.48.11:537][360]LogAudio: Display: Audio Device (ID: 34) registered with world 'TestMap'.
+[2022.10.13-16.48.11:554][360]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.10.13-16.48.11:564][360]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2022.10.13-18.48.11
+[2022.10.13-16.48.11:564][360]LogWorld: Bringing up level for play took: 0.010347
+[2022.10.13-16.48.11:567][360]LogOnline: OSS: Created online subsystem instance for: :Context_59
+[2022.10.13-16.48.11:575][360]PIE: Server logged in
+[2022.10.13-16.48.11:575][360]PIE: Play in editor total start time 0,171 seconds.
+[2022.10.13-16.48.13:654][464]LogBlueprintUserMessages: [BP_Interactable_DoubleDoor_C_1] Successfully Interacted
+[2022.10.13-16.48.18:851][765]LogBlueprintUserMessages: [BP_Interactable_Door_C_3] Successfully Interacted
+[2022.10.13-16.48.50:898][625]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Added item
+[2022.10.13-16.48.55:594][868]LogBlueprintUserMessages: [BP_Interactable_Door_C_3] Successfully Interacted
+[2022.10.13-16.48.59:344][ 57]LogBlueprintUserMessages: [BP_Interactable_Door_C_3] Successfully Interacted
+[2022.10.13-16.49.02:182][201]LogBlueprintUserMessages: [BP_Interactable_Door_C_3] Successfully Interacted
+[2022.10.13-16.49.05:532][371]LogBlueprintUserMessages: [BP_Interactable_Door_C_3] Successfully Interacted
+[2022.10.13-16.49.08:154][506]LogBlueprintUserMessages: [BP_Interactable_Door_C_3] Successfully Interacted
+[2022.10.13-16.49.11:021][651]LogBlueprintUserMessages: [BP_Interactable_Door_C_3] Successfully Interacted
+[2022.10.13-16.49.13:302][766]LogBlueprintUserMessages: [BP_Interactable_Door_C_3] Successfully Interacted
+[2022.10.13-16.49.18:474][ 27]LogBlueprintUserMessages: [BP_Interactable_Door_C_3] Successfully Interacted
+[2022.10.13-16.49.20:721][142]LogBlueprintUserMessages: [BP_Interactable_Door_C_3] Successfully Interacted
+[2022.10.13-16.49.24:159][312]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.13-16.49.24:159][312]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_TestMap
+[2022.10.13-16.49.24:160][312]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2022.10.13-16.49.24:161][312]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.13-16.49.24:181][312]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.13-16.49.24:190][312]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.13-16.49.24:257][312]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.13-16.49.24:258][312]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=34
+[2022.10.13-16.49.24:259][312]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=34
+[2022.10.13-16.49.24:269][312]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2022.10.13-16.49.24:332][313]LogPlayLevel: Display: Destroying online subsystem :Context_59
+[2022.10.13-16.52.31:716][898]BlueprintLog: New page: Compile BP_Interactable_DoubleDoor
+[2022.10.13-16.52.31:844][898]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2022.10.13-16.52.32:397][930]LogSavePackage: Moving output files for package: /Game/Blueprints/Interactables/BP_Interactable_DoubleDoor
+[2022.10.13-16.52.32:398][930]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/BP_Interactable_DoubleDoorBB82A8BF483E65D2CEF8559FB57EE5BE.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Content/Blueprints/Interactables/BP_Interactable_DoubleDoor.uasset'
+[2022.10.13-16.52.32:416][930]AssetCheck: New page: Asset Save: BP_Interactable_DoubleDoor
+[2022.10.13-16.52.32:416][930]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Interactables/BP_Interactable_DoubleDoor.BP_Interactable_DoubleDoor
+[2022.10.13-16.52.39:716][591]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Maps/TestMap" FILE="../../../../../UnrealProjects/HorrorPrototype/Content/ThirdPerson/Maps/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.10.13-16.52.39:787][591]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2022.10.13-16.52.39:841][591]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Maps/TestMap
+[2022.10.13-16.52.39:842][591]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/TestMapAD53B4994A4957A4B75A67A938D9055E.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Content/ThirdPerson/Maps/TestMap.umap'
+[2022.10.13-16.52.39:890][591]AssetCheck: New page: Asset Save: TestMap
+[2022.10.13-16.52.39:890][591]LogContentValidation: Display: Validating World /Game/ThirdPerson/Maps/TestMap.TestMap
+[2022.10.13-16.52.45:970][ 15]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.10.13-16.52.45:987][ 15]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.13-16.52.45:987][ 15]PIE: New page: PIE session: TestMap (13 Oct 2022, 20:52:45)
+[2022.10.13-16.52.46:018][ 15]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_TestMap
+[2022.10.13-16.52.46:035][ 15]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016900s)
+[2022.10.13-16.52.46:035][ 15]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/TestMap.TestMap to /Game/ThirdPerson/Maps/UEDPIE_0_TestMap.TestMap (0.017034s)
+[2022.10.13-16.52.46:035][ 15]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.13-16.52.46:035][ 15]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.13-16.52.46:036][ 15]LogAIModule: Creating AISystem for world TestMap
+[2022.10.13-16.52.46:036][ 15]LogPlayLevel: PIE: World Init took: (0.001031s)
+[2022.10.13-16.52.46:103][ 15]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2022.10.13-16.52.46:104][ 15]LogAudio: Display: Creating Audio Device:                 Id: 35, Scope: Unique, Realtime: True
+[2022.10.13-16.52.46:105][ 15]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.13-16.52.46:105][ 15]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.13-16.52.46:105][ 15]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.13-16.52.46:105][ 15]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.13-16.52.46:105][ 15]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.13-16.52.46:105][ 15]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.13-16.52.46:105][ 15]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.13-16.52.46:105][ 15]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.13-16.52.46:105][ 15]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.10.13-16.52.46:105][ 15]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.10.13-16.52.46:105][ 15]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.13-16.52.46:108][ 15]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.13-16.52.46:145][ 15]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (HyperX Virtual Surround Sound)
+[2022.10.13-16.52.46:146][ 15]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.13-16.52.46:146][ 15]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.13-16.52.46:146][ 15]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.13-16.52.46:147][ 15]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=35
+[2022.10.13-16.52.46:147][ 15]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=35
+[2022.10.13-16.52.46:149][ 15]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=35
+[2022.10.13-16.52.46:149][ 15]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=35
+[2022.10.13-16.52.46:149][ 15]LogInit: FAudioDevice initialized.
+[2022.10.13-16.52.46:149][ 15]LogAudio: Display: Audio Device (ID: 35) registered with world 'TestMap'.
+[2022.10.13-16.52.46:161][ 15]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.10.13-16.52.46:171][ 15]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2022.10.13-18.52.46
+[2022.10.13-16.52.46:171][ 15]LogWorld: Bringing up level for play took: 0.010166
+[2022.10.13-16.52.46:174][ 15]LogOnline: OSS: Created online subsystem instance for: :Context_60
+[2022.10.13-16.52.46:181][ 15]PIE: Server logged in
+[2022.10.13-16.52.46:182][ 15]PIE: Play in editor total start time 0,194 seconds.
+[2022.10.13-16.52.47:837][ 93]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Added item
+[2022.10.13-16.52.49:922][199]LogBlueprintUserMessages: [BP_Interactable_DoubleDoor_C_1] Successfully Interacted
+[2022.10.13-16.52.53:110][359]LogBlueprintUserMessages: [BP_Interactable_DoubleDoor_C_1] Successfully Interacted
+[2022.10.13-16.52.56:444][527]LogBlueprintUserMessages: [BP_Interactable_DoubleDoor_C_1] Successfully Interacted
+[2022.10.13-16.52.58:759][642]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.13-16.52.58:759][642]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_TestMap
+[2022.10.13-16.52.58:760][642]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2022.10.13-16.52.58:761][642]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.13-16.52.58:786][642]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.13-16.52.58:796][642]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.13-16.52.58:864][642]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.13-16.52.58:865][642]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=35
+[2022.10.13-16.52.58:867][642]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=35
+[2022.10.13-16.52.58:878][642]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2022.10.13-16.52.58:942][643]LogPlayLevel: Display: Destroying online subsystem :Context_60
+[2022.10.13-16.53.24:601][343]LogSavePackage: Moving output files for package: /Game/Blueprints/Interactables/BP_Interactable_DoubleDoor
+[2022.10.13-16.53.24:602][343]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/BP_Interactable_DoubleDoor6B1A970746BABCE35A192DB89AC358E3.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Content/Blueprints/Interactables/BP_Interactable_DoubleDoor.uasset'
+[2022.10.13-16.53.24:622][343]AssetCheck: New page: Asset Save: BP_Interactable_DoubleDoor
+[2022.10.13-16.53.24:622][343]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Interactables/BP_Interactable_DoubleDoor.BP_Interactable_DoubleDoor
+[2022.10.13-16.53.26:262][509]BlueprintLog: New page: Compile BP_Interactable_DoubleDoor
+[2022.10.13-16.53.26:389][509]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2022.10.13-16.53.26:935][536]LogSavePackage: Moving output files for package: /Game/Blueprints/Interactables/BP_Interactable_DoubleDoor
+[2022.10.13-16.53.26:936][536]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/BP_Interactable_DoubleDoor07513FF3418D50288072C48A5A596483.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Content/Blueprints/Interactables/BP_Interactable_DoubleDoor.uasset'
+[2022.10.13-16.53.26:954][536]AssetCheck: New page: Asset Save: BP_Interactable_DoubleDoor
+[2022.10.13-16.53.26:954][536]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Interactables/BP_Interactable_DoubleDoor.BP_Interactable_DoubleDoor
+[2022.10.13-16.53.28:083][608]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Maps/TestMap" FILE="../../../../../UnrealProjects/HorrorPrototype/Content/ThirdPerson/Maps/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.10.13-16.53.28:154][608]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2022.10.13-16.53.28:208][608]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Maps/TestMap
+[2022.10.13-16.53.28:209][608]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/TestMap1171D0E64714418926D276917682B3AC.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Content/ThirdPerson/Maps/TestMap.umap'
+[2022.10.13-16.53.28:255][608]AssetCheck: New page: Asset Save: TestMap
+[2022.10.13-16.53.28:255][608]LogContentValidation: Display: Validating World /Game/ThirdPerson/Maps/TestMap.TestMap
+[2022.10.13-16.53.28:599][633]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.10.13-16.53.28:616][633]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.13-16.53.28:617][633]PIE: New page: PIE session: TestMap (13 Oct 2022, 20:53:28)
+[2022.10.13-16.53.28:617][633]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_TestMap
+[2022.10.13-16.53.28:634][633]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017124s)
+[2022.10.13-16.53.28:634][633]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/TestMap.TestMap to /Game/ThirdPerson/Maps/UEDPIE_0_TestMap.TestMap (0.017229s)
+[2022.10.13-16.53.28:634][633]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.13-16.53.28:634][633]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.13-16.53.28:635][633]LogAIModule: Creating AISystem for world TestMap
+[2022.10.13-16.53.28:635][633]LogPlayLevel: PIE: World Init took: (0.001082s)
+[2022.10.13-16.53.28:703][633]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2022.10.13-16.53.28:705][633]LogAudio: Display: Creating Audio Device:                 Id: 36, Scope: Unique, Realtime: True
+[2022.10.13-16.53.28:706][633]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.13-16.53.28:706][633]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.13-16.53.28:706][633]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.13-16.53.28:706][633]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.13-16.53.28:706][633]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.13-16.53.28:706][633]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.13-16.53.28:706][633]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.13-16.53.28:706][633]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.13-16.53.28:706][633]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.10.13-16.53.28:706][633]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.10.13-16.53.28:706][633]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.13-16.53.28:709][633]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.13-16.53.28:746][633]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (HyperX Virtual Surround Sound)
+[2022.10.13-16.53.28:747][633]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.13-16.53.28:747][633]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.13-16.53.28:747][633]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.13-16.53.28:748][633]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=36
+[2022.10.13-16.53.28:748][633]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=36
+[2022.10.13-16.53.28:749][633]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=36
+[2022.10.13-16.53.28:749][633]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=36
+[2022.10.13-16.53.28:749][633]LogInit: FAudioDevice initialized.
+[2022.10.13-16.53.28:749][633]LogAudio: Display: Audio Device (ID: 36) registered with world 'TestMap'.
+[2022.10.13-16.53.28:761][633]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.10.13-16.53.28:770][633]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2022.10.13-18.53.28
+[2022.10.13-16.53.28:771][633]LogWorld: Bringing up level for play took: 0.010300
+[2022.10.13-16.53.28:773][633]LogOnline: OSS: Created online subsystem instance for: :Context_61
+[2022.10.13-16.53.28:781][633]PIE: Server logged in
+[2022.10.13-16.53.28:782][633]PIE: Play in editor total start time 0,166 seconds.
+[2022.10.13-16.53.30:456][714]LogBlueprintUserMessages: [BP_Interactable_DoubleDoor_C_1] Successfully Interacted
+[2022.10.13-16.53.32:890][850]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Added item
+[2022.10.13-16.53.36:700][ 45]LogBlueprintUserMessages: [BP_Interactable_DoubleDoor_C_1] Successfully Interacted
+[2022.10.13-16.53.40:873][260]LogBlueprintUserMessages: [BP_Interactable_DoubleDoor_C_1] Successfully Interacted
+[2022.10.13-16.53.45:904][519]LogBlueprintUserMessages: [BP_Interactable_DoubleDoor_C_1] Successfully Interacted
+[2022.10.13-16.53.48:264][639]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.13-16.53.48:264][639]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_TestMap
+[2022.10.13-16.53.48:265][639]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2022.10.13-16.53.48:266][639]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.13-16.53.48:294][639]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.13-16.53.48:304][639]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.13-16.53.48:370][639]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.13-16.53.48:372][639]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=36
+[2022.10.13-16.53.48:373][639]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=36
+[2022.10.13-16.53.48:383][639]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2022.10.13-16.53.48:447][640]LogPlayLevel: Display: Destroying online subsystem :Context_61
+[2022.10.13-16.54.08:356][829]BlueprintLog: New page: Compile BP_Interactable_DoubleDoor
+[2022.10.13-16.54.08:482][829]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2022.10.13-16.54.08:998][863]LogSavePackage: Moving output files for package: /Game/Blueprints/Interactables/BP_Interactable_DoubleDoor
+[2022.10.13-16.54.08:999][863]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/BP_Interactable_DoubleDoorD96519AA4414B16B119FF6B21A6E6C5E.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Content/Blueprints/Interactables/BP_Interactable_DoubleDoor.uasset'
+[2022.10.13-16.54.09:017][863]AssetCheck: New page: Asset Save: BP_Interactable_DoubleDoor
+[2022.10.13-16.54.09:017][863]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Interactables/BP_Interactable_DoubleDoor.BP_Interactable_DoubleDoor
+[2022.10.13-16.54.10:042][937]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Maps/TestMap" FILE="../../../../../UnrealProjects/HorrorPrototype/Content/ThirdPerson/Maps/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.10.13-16.54.10:112][937]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2022.10.13-16.54.10:166][937]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Maps/TestMap
+[2022.10.13-16.54.10:167][937]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/TestMap2042135E461597F12133D7970126A9B0.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Content/ThirdPerson/Maps/TestMap.umap'
+[2022.10.13-16.54.10:213][937]AssetCheck: New page: Asset Save: TestMap
+[2022.10.13-16.54.10:213][937]LogContentValidation: Display: Validating World /Game/ThirdPerson/Maps/TestMap.TestMap
+[2022.10.13-16.54.10:577][961]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.10.13-16.54.10:594][961]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.13-16.54.10:594][961]PIE: New page: PIE session: TestMap (13 Oct 2022, 20:54:10)
+[2022.10.13-16.54.10:616][961]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_TestMap
+[2022.10.13-16.54.10:632][961]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016729s)
+[2022.10.13-16.54.10:632][961]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/TestMap.TestMap to /Game/ThirdPerson/Maps/UEDPIE_0_TestMap.TestMap (0.016858s)
+[2022.10.13-16.54.10:632][961]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.13-16.54.10:633][961]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.13-16.54.10:633][961]LogAIModule: Creating AISystem for world TestMap
+[2022.10.13-16.54.10:633][961]LogPlayLevel: PIE: World Init took: (0.000984s)
+[2022.10.13-16.54.10:701][961]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2022.10.13-16.54.10:703][961]LogAudio: Display: Creating Audio Device:                 Id: 37, Scope: Unique, Realtime: True
+[2022.10.13-16.54.10:703][961]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.13-16.54.10:703][961]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.13-16.54.10:703][961]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.13-16.54.10:703][961]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.13-16.54.10:703][961]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.13-16.54.10:703][961]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.13-16.54.10:703][961]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.13-16.54.10:703][961]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.13-16.54.10:704][961]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.10.13-16.54.10:704][961]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.10.13-16.54.10:704][961]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.13-16.54.10:706][961]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.13-16.54.10:743][961]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (HyperX Virtual Surround Sound)
+[2022.10.13-16.54.10:744][961]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.13-16.54.10:744][961]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.13-16.54.10:744][961]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.13-16.54.10:745][961]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=37
+[2022.10.13-16.54.10:745][961]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=37
+[2022.10.13-16.54.10:747][961]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=37
+[2022.10.13-16.54.10:747][961]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=37
+[2022.10.13-16.54.10:747][961]LogInit: FAudioDevice initialized.
+[2022.10.13-16.54.10:747][961]LogAudio: Display: Audio Device (ID: 37) registered with world 'TestMap'.
+[2022.10.13-16.54.10:759][961]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.10.13-16.54.10:769][961]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2022.10.13-18.54.10
+[2022.10.13-16.54.10:770][961]LogWorld: Bringing up level for play took: 0.010497
+[2022.10.13-16.54.10:772][961]LogOnline: OSS: Created online subsystem instance for: :Context_62
+[2022.10.13-16.54.10:780][961]PIE: Server logged in
+[2022.10.13-16.54.10:781][961]PIE: Play in editor total start time 0,188 seconds.
+[2022.10.13-16.54.12:119][ 22]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Added item
+[2022.10.13-16.54.12:694][ 51]LogBlueprintUserMessages: [BP_Interactable_DoubleDoor_C_1] Successfully Interacted
+[2022.10.13-16.54.16:782][260]LogBlueprintUserMessages: [BP_Interactable_DoubleDoor_C_1] Successfully Interacted
+[2022.10.13-16.54.20:037][428]LogBlueprintUserMessages: [BP_Interactable_DoubleDoor_C_1] Successfully Interacted
+[2022.10.13-16.54.22:959][577]LogBlueprintUserMessages: [BP_Interactable_DoubleDoor_C_1] Successfully Interacted
+[2022.10.13-16.54.26:777][771]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.13-16.54.26:777][771]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_TestMap
+[2022.10.13-16.54.26:778][771]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2022.10.13-16.54.26:779][771]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.13-16.54.26:795][771]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.13-16.54.26:805][771]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.13-16.54.26:873][771]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.13-16.54.26:874][771]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=37
+[2022.10.13-16.54.26:876][771]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=37
+[2022.10.13-16.54.26:885][771]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2022.10.13-16.54.26:949][772]LogPlayLevel: Display: Destroying online subsystem :Context_62
+[2022.10.13-16.54.37:370][950]LogSavePackage: Moving output files for package: /Game/Blueprints/Interactables/BP_Interactable_DoubleDoor
+[2022.10.13-16.54.37:371][950]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/BP_Interactable_DoubleDoor892E02D348E45F63FDFE2097D9771B33.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Content/Blueprints/Interactables/BP_Interactable_DoubleDoor.uasset'
+[2022.10.13-16.54.37:390][950]AssetCheck: New page: Asset Save: BP_Interactable_DoubleDoor
+[2022.10.13-16.54.37:390][950]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Interactables/BP_Interactable_DoubleDoor.BP_Interactable_DoubleDoor
+[2022.10.13-16.54.40:113][184]BlueprintLog: New page: Compile BP_Interactable_DoubleDoor
+[2022.10.13-16.54.40:239][184]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2022.10.13-16.54.40:756][222]LogSavePackage: Moving output files for package: /Game/Blueprints/Interactables/BP_Interactable_DoubleDoor
+[2022.10.13-16.54.40:757][222]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/BP_Interactable_DoubleDoor13CF751B4CD72E0D37A1A89F4B54EE62.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Content/Blueprints/Interactables/BP_Interactable_DoubleDoor.uasset'
+[2022.10.13-16.54.40:774][222]AssetCheck: New page: Asset Save: BP_Interactable_DoubleDoor
+[2022.10.13-16.54.40:774][222]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Interactables/BP_Interactable_DoubleDoor.BP_Interactable_DoubleDoor
+[2022.10.13-16.54.41:740][286]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Maps/TestMap" FILE="../../../../../UnrealProjects/HorrorPrototype/Content/ThirdPerson/Maps/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.10.13-16.54.41:808][286]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2022.10.13-16.54.41:860][286]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Maps/TestMap
+[2022.10.13-16.54.41:861][286]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/TestMap0ABE3F4C4CC193B32EAB68AF0AB4DF7B.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Content/ThirdPerson/Maps/TestMap.umap'
+[2022.10.13-16.54.41:907][286]AssetCheck: New page: Asset Save: TestMap
+[2022.10.13-16.54.41:907][286]LogContentValidation: Display: Validating World /Game/ThirdPerson/Maps/TestMap.TestMap
+[2022.10.13-16.54.42:294][314]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.10.13-16.54.42:311][314]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.13-16.54.42:312][314]PIE: New page: PIE session: TestMap (13 Oct 2022, 20:54:42)
+[2022.10.13-16.54.42:312][314]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_TestMap
+[2022.10.13-16.54.42:329][314]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017031s)
+[2022.10.13-16.54.42:329][314]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/TestMap.TestMap to /Game/ThirdPerson/Maps/UEDPIE_0_TestMap.TestMap (0.017141s)
+[2022.10.13-16.54.42:329][314]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.13-16.54.42:329][314]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.13-16.54.42:330][314]LogAIModule: Creating AISystem for world TestMap
+[2022.10.13-16.54.42:330][314]LogPlayLevel: PIE: World Init took: (0.001007s)
+[2022.10.13-16.54.42:396][314]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2022.10.13-16.54.42:398][314]LogAudio: Display: Creating Audio Device:                 Id: 38, Scope: Unique, Realtime: True
+[2022.10.13-16.54.42:398][314]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.13-16.54.42:398][314]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.13-16.54.42:399][314]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.13-16.54.42:399][314]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.13-16.54.42:399][314]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.13-16.54.42:399][314]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.13-16.54.42:399][314]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.13-16.54.42:399][314]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.13-16.54.42:399][314]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.10.13-16.54.42:399][314]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.10.13-16.54.42:399][314]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.13-16.54.42:402][314]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.13-16.54.42:438][314]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (HyperX Virtual Surround Sound)
+[2022.10.13-16.54.42:438][314]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.13-16.54.42:438][314]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.13-16.54.42:438][314]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.13-16.54.42:439][314]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=38
+[2022.10.13-16.54.42:439][314]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=38
+[2022.10.13-16.54.42:441][314]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=38
+[2022.10.13-16.54.42:441][314]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=38
+[2022.10.13-16.54.42:441][314]LogInit: FAudioDevice initialized.
+[2022.10.13-16.54.42:441][314]LogAudio: Display: Audio Device (ID: 38) registered with world 'TestMap'.
+[2022.10.13-16.54.42:455][314]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.10.13-16.54.42:465][314]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2022.10.13-18.54.42
+[2022.10.13-16.54.42:465][314]LogWorld: Bringing up level for play took: 0.010452
+[2022.10.13-16.54.42:468][314]LogOnline: OSS: Created online subsystem instance for: :Context_63
+[2022.10.13-16.54.42:475][314]PIE: Server logged in
+[2022.10.13-16.54.42:476][314]PIE: Play in editor total start time 0,165 seconds.
+[2022.10.13-16.54.44:099][392]LogBlueprintUserMessages: [BP_Interactable_DoubleDoor_C_1] Successfully Interacted
+[2022.10.13-16.54.45:681][478]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Added item
+[2022.10.13-16.54.48:745][634]LogBlueprintUserMessages: [BP_Interactable_DoubleDoor_C_1] Successfully Interacted
+[2022.10.13-16.54.55:154][959]LogBlueprintUserMessages: [BP_Interactable_Door_C_3] Successfully Interacted
+[2022.10.13-16.54.57:748][ 97]LogBlueprintUserMessages: [BP_Interactable_Door_C_3] Successfully Interacted
+[2022.10.13-16.55.02:942][371]LogBlueprintUserMessages: [BP_Interactable_Door_C_4] Successfully Interacted
+[2022.10.13-16.55.04:121][432]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.13-16.55.04:121][432]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_TestMap
+[2022.10.13-16.55.04:121][432]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2022.10.13-16.55.04:123][432]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.13-16.55.04:141][432]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.13-16.55.04:150][432]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.13-16.55.04:216][432]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.13-16.55.04:217][432]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=38
+[2022.10.13-16.55.04:219][432]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=38
+[2022.10.13-16.55.04:228][432]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2022.10.13-16.55.04:287][433]LogPlayLevel: Display: Destroying online subsystem :Context_63
+[2022.10.13-16.55.06:701][619]Cmd: DELETE
+[2022.10.13-16.55.06:701][619]Cmd: ACTOR DELETE
+[2022.10.13-16.55.06:706][619]LogEditorActor: Deleted Actor: BP_Interactable_Door_C
+[2022.10.13-16.55.06:708][619]LogEditorActor: Deleted Actor: BP_Interactable_Door_C
+[2022.10.13-16.55.06:776][619]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2022.10.13-16.55.06:780][619]LogEditorActor: Deleted 2 Actors (0.079 secs)
+[2022.10.13-16.55.09:392][835]Cmd: DUPLICATE
+[2022.10.13-16.55.09:392][835]Cmd: ACTOR DUPLICATE
+[2022.10.13-16.55.13:857][126]Cmd: TRANSACTION UNDO
+[2022.10.13-16.55.13:857][126]LogEditorTransaction: Undo Move Elements
+[2022.10.13-16.55.14:489][141]Cmd: MODE GRID=1
+[2022.10.13-16.55.28:670][136]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Maps/TestMap" FILE="../../../../../UnrealProjects/HorrorPrototype/Content/ThirdPerson/Maps/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.10.13-16.55.28:741][136]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2022.10.13-16.55.28:795][136]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Maps/TestMap
+[2022.10.13-16.55.28:796][136]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/TestMapDCE4024447E8DF9AA453168CFC0D4E76.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Content/ThirdPerson/Maps/TestMap.umap'
+[2022.10.13-16.55.28:842][136]AssetCheck: New page: Asset Save: TestMap
+[2022.10.13-16.55.28:842][136]LogContentValidation: Display: Validating World /Game/ThirdPerson/Maps/TestMap.TestMap
+[2022.10.13-16.55.50:488][603]LogAssetEditorSubsystem: Opening Asset editor for SoundWave /Game/Sounds/SFX/Door/DoorClosing_1.DoorClosing_1
+[2022.10.13-16.55.54:050][  4]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/SFX/Door/DoorClosing_1" FILE="../../../../../UnrealProjects/HorrorPrototype/Content/Sounds/SFX/Door/DoorClosing_1.uasset" SILENT=true
+[2022.10.13-16.55.54:052][  4]LogSavePackage: Moving output files for package: /Game/Sounds/SFX/Door/DoorClosing_1
+[2022.10.13-16.55.54:053][  4]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/DoorClosing_168924A8A4342DDC61594428E30EE5A40.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Content/Sounds/SFX/Door/DoorClosing_1.uasset'
+[2022.10.13-16.55.54:071][  4]AssetCheck: New page: Asset Save: DoorClosing_1
+[2022.10.13-16.55.54:071][  4]LogContentValidation: Display: Validating SoundWave /Game/Sounds/SFX/Door/DoorClosing_1.DoorClosing_1
+[2022.10.13-16.56.04:338][210]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/Cues/Door/DoorClosing" FILE="../../../../../UnrealProjects/HorrorPrototype/Content/Sounds/Cues/Door/DoorClosing.uasset" SILENT=true
+[2022.10.13-16.56.04:340][210]LogSavePackage: Moving output files for package: /Game/Sounds/Cues/Door/DoorClosing
+[2022.10.13-16.56.04:341][210]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/DoorClosing3FC7D695456780DAF68F3EA6EF54B0F1.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Content/Sounds/Cues/Door/DoorClosing.uasset'
+[2022.10.13-16.56.04:359][210]AssetCheck: New page: Asset Save: DoorClosing
+[2022.10.13-16.56.04:359][210]LogContentValidation: Display: Validating SoundCue /Game/Sounds/Cues/Door/DoorClosing.DoorClosing
+[2022.10.13-16.56.15:685][551]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/Cues/Door/DoorSqueak" FILE="../../../../../UnrealProjects/HorrorPrototype/Content/Sounds/Cues/Door/DoorSqueak.uasset" SILENT=true
+[2022.10.13-16.56.15:687][551]LogSavePackage: Moving output files for package: /Game/Sounds/Cues/Door/DoorSqueak
+[2022.10.13-16.56.15:688][551]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/DoorSqueak1C17415F478078487DAD8BB7DFAE9CCA.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Content/Sounds/Cues/Door/DoorSqueak.uasset'
+[2022.10.13-16.56.15:707][551]AssetCheck: New page: Asset Save: DoorSqueak
+[2022.10.13-16.56.15:707][551]LogContentValidation: Display: Validating SoundCue /Game/Sounds/Cues/Door/DoorSqueak.DoorSqueak
+[2022.10.13-16.56.22:826][345]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Maps/TestMap" FILE="../../../../../UnrealProjects/HorrorPrototype/Content/ThirdPerson/Maps/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.10.13-16.56.22:897][345]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2022.10.13-16.56.22:950][345]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Maps/TestMap
+[2022.10.13-16.56.22:950][345]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/TestMap92B52BF247AF853703BA8D90C58834F4.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Content/ThirdPerson/Maps/TestMap.umap'
+[2022.10.13-16.56.22:999][345]AssetCheck: New page: Asset Save: TestMap
+[2022.10.13-16.56.22:999][345]LogContentValidation: Display: Validating World /Game/ThirdPerson/Maps/TestMap.TestMap
+[2022.10.13-16.56.23:331][368]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.10.13-16.56.23:347][368]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.13-16.56.23:348][368]PIE: New page: PIE session: TestMap (13 Oct 2022, 20:56:23)
+[2022.10.13-16.56.23:348][368]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_TestMap
+[2022.10.13-16.56.23:365][368]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017151s)
+[2022.10.13-16.56.23:365][368]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/TestMap.TestMap to /Game/ThirdPerson/Maps/UEDPIE_0_TestMap.TestMap (0.017266s)
+[2022.10.13-16.56.23:365][368]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.13-16.56.23:365][368]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.13-16.56.23:366][368]LogAIModule: Creating AISystem for world TestMap
+[2022.10.13-16.56.23:366][368]LogPlayLevel: PIE: World Init took: (0.000983s)
+[2022.10.13-16.56.23:435][368]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2022.10.13-16.56.23:437][368]LogAudio: Display: Creating Audio Device:                 Id: 39, Scope: Unique, Realtime: True
+[2022.10.13-16.56.23:437][368]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.13-16.56.23:437][368]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.13-16.56.23:437][368]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.13-16.56.23:437][368]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.13-16.56.23:437][368]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.13-16.56.23:437][368]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.13-16.56.23:437][368]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.13-16.56.23:437][368]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.13-16.56.23:438][368]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.10.13-16.56.23:438][368]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.10.13-16.56.23:438][368]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.13-16.56.23:440][368]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.13-16.56.23:478][368]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (HyperX Virtual Surround Sound)
+[2022.10.13-16.56.23:478][368]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.13-16.56.23:478][368]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.13-16.56.23:478][368]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.13-16.56.23:479][368]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=39
+[2022.10.13-16.56.23:479][368]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=39
+[2022.10.13-16.56.23:481][368]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=39
+[2022.10.13-16.56.23:481][368]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=39
+[2022.10.13-16.56.23:481][368]LogInit: FAudioDevice initialized.
+[2022.10.13-16.56.23:481][368]LogAudio: Display: Audio Device (ID: 39) registered with world 'TestMap'.
+[2022.10.13-16.56.23:493][368]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.10.13-16.56.23:503][368]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2022.10.13-18.56.23
+[2022.10.13-16.56.23:504][368]LogWorld: Bringing up level for play took: 0.010321
+[2022.10.13-16.56.23:506][368]LogOnline: OSS: Created online subsystem instance for: :Context_64
+[2022.10.13-16.56.23:514][368]PIE: Server logged in
+[2022.10.13-16.56.23:515][368]PIE: Play in editor total start time 0,167 seconds.
+[2022.10.13-16.56.27:281][571]LogBlueprintUserMessages: [BP_Interactable_DoubleDoor_C_1] Successfully Interacted
+[2022.10.13-16.56.30:241][738]LogBlueprintUserMessages: [BP_Interactable_DoubleDoor_C_1] Successfully Interacted
+[2022.10.13-16.56.35:020][ 19]LogBlueprintUserMessages: [BP_Interactable_Door_C_3] Successfully Interacted
+[2022.10.13-16.56.37:304][147]LogBlueprintUserMessages: [BP_Interactable_DoubleDoor_C_2] Successfully Interacted
+[2022.10.13-16.56.48:121][792]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.13-16.56.48:121][792]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_TestMap
+[2022.10.13-16.56.48:122][792]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2022.10.13-16.56.48:123][792]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.13-16.56.48:140][792]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.13-16.56.48:149][792]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.13-16.56.48:213][792]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.10.13-16.56.48:214][792]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=39
+[2022.10.13-16.56.48:216][792]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=39
+[2022.10.13-16.56.48:220][792]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.13-16.56.48:226][792]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2022.10.13-16.56.48:303][793]LogPlayLevel: Display: Destroying online subsystem :Context_64
+[2022.10.13-16.57.20:700][460]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Maps/TestMap" FILE="../../../../../UnrealProjects/HorrorPrototype/Content/ThirdPerson/Maps/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.10.13-16.57.20:768][460]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2022.10.13-16.57.20:821][460]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Maps/TestMap
+[2022.10.13-16.57.20:822][460]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/TestMap1D90A0194E5ECA99B4C793BB06875E99.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Content/ThirdPerson/Maps/TestMap.umap'
+[2022.10.13-16.57.20:870][460]AssetCheck: New page: Asset Save: TestMap
+[2022.10.13-16.57.20:870][460]LogContentValidation: Display: Validating World /Game/ThirdPerson/Maps/TestMap.TestMap
+[2022.10.13-16.57.21:471][507]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.10.13-16.57.21:489][507]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.13-16.57.21:489][507]PIE: New page: PIE session: TestMap (13 Oct 2022, 20:57:21)
+[2022.10.13-16.57.21:523][507]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_TestMap
+[2022.10.13-16.57.21:540][507]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016428s)
+[2022.10.13-16.57.21:540][507]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/TestMap.TestMap to /Game/ThirdPerson/Maps/UEDPIE_0_TestMap.TestMap (0.016562s)
+[2022.10.13-16.57.21:540][507]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.13-16.57.21:540][507]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.13-16.57.21:541][507]LogAIModule: Creating AISystem for world TestMap
+[2022.10.13-16.57.21:541][507]LogPlayLevel: PIE: World Init took: (0.001010s)
+[2022.10.13-16.57.21:607][507]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2022.10.13-16.57.21:609][507]LogAudio: Display: Creating Audio Device:                 Id: 40, Scope: Unique, Realtime: True
+[2022.10.13-16.57.21:609][507]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.13-16.57.21:609][507]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.13-16.57.21:609][507]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.13-16.57.21:609][507]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.13-16.57.21:609][507]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.13-16.57.21:609][507]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.13-16.57.21:609][507]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.13-16.57.21:609][507]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.13-16.57.21:609][507]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.10.13-16.57.21:609][507]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.10.13-16.57.21:610][507]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.13-16.57.21:612][507]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.13-16.57.21:648][507]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (HyperX Virtual Surround Sound)
+[2022.10.13-16.57.21:649][507]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.13-16.57.21:649][507]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.13-16.57.21:649][507]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.13-16.57.21:649][507]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=40
+[2022.10.13-16.57.21:649][507]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=40
+[2022.10.13-16.57.21:651][507]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=40
+[2022.10.13-16.57.21:651][507]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=40
+[2022.10.13-16.57.21:651][507]LogInit: FAudioDevice initialized.
+[2022.10.13-16.57.21:651][507]LogAudio: Display: Audio Device (ID: 40) registered with world 'TestMap'.
+[2022.10.13-16.57.21:666][507]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.10.13-16.57.21:676][507]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2022.10.13-18.57.21
+[2022.10.13-16.57.21:677][507]LogWorld: Bringing up level for play took: 0.010075
+[2022.10.13-16.57.21:679][507]LogOnline: OSS: Created online subsystem instance for: :Context_65
+[2022.10.13-16.57.21:686][507]PIE: Server logged in
+[2022.10.13-16.57.21:687][507]PIE: Play in editor total start time 0,199 seconds.
+[2022.10.13-16.57.23:526][598]LogBlueprintUserMessages: [BP_ThirdPersonGameMode_C_0] Added item
+[2022.10.13-16.57.24:021][623]LogBlueprintUserMessages: [BP_Interactable_DoubleDoor_C_1] Successfully Interacted
+[2022.10.13-16.57.48:786][891]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.13-16.57.48:786][891]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_TestMap
+[2022.10.13-16.57.48:787][891]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2022.10.13-16.57.48:788][891]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.13-16.57.48:804][891]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.13-16.57.48:813][891]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.13-16.57.48:879][891]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.13-16.57.48:880][891]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=40
+[2022.10.13-16.57.48:882][891]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=40
+[2022.10.13-16.57.48:891][891]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2022.10.13-16.57.49:012][892]LogPlayLevel: Display: Destroying online subsystem :Context_65
+[2022.10.13-16.58.06:996][873]LogSlate: Window 'Color Picker' being destroyed
+[2022.10.13-16.58.34:409][325]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Maps/TestMap" FILE="../../../../../UnrealProjects/HorrorPrototype/Content/ThirdPerson/Maps/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.10.13-16.58.34:477][325]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2022.10.13-16.58.34:531][325]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Maps/TestMap
+[2022.10.13-16.58.34:532][325]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/TestMapB883737B4B6908D940C271BA41439938.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Content/ThirdPerson/Maps/TestMap.umap'
+[2022.10.13-16.58.34:602][325]AssetCheck: New page: Asset Save: TestMap
+[2022.10.13-16.58.34:602][325]LogContentValidation: Display: Validating World /Game/ThirdPerson/Maps/TestMap.TestMap
+[2022.10.13-16.58.35:189][354]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.10.13-16.58.35:205][354]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.13-16.58.35:205][354]PIE: New page: PIE session: TestMap (13 Oct 2022, 20:58:35)
+[2022.10.13-16.58.35:205][354]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_TestMap
+[2022.10.13-16.58.35:223][354]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017742s)
+[2022.10.13-16.58.35:223][354]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/TestMap.TestMap to /Game/ThirdPerson/Maps/UEDPIE_0_TestMap.TestMap (0.017862s)
+[2022.10.13-16.58.35:223][354]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.13-16.58.35:224][354]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.13-16.58.35:224][354]LogAIModule: Creating AISystem for world TestMap
+[2022.10.13-16.58.35:224][354]LogPlayLevel: PIE: World Init took: (0.001005s)
+[2022.10.13-16.58.35:291][354]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2022.10.13-16.58.35:292][354]LogAudio: Display: Creating Audio Device:                 Id: 41, Scope: Unique, Realtime: True
+[2022.10.13-16.58.35:292][354]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.13-16.58.35:292][354]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.13-16.58.35:292][354]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.13-16.58.35:292][354]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.13-16.58.35:293][354]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.13-16.58.35:293][354]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.13-16.58.35:293][354]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.13-16.58.35:293][354]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.13-16.58.35:293][354]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.10.13-16.58.35:293][354]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.10.13-16.58.35:293][354]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.13-16.58.35:296][354]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.13-16.58.35:332][354]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (HyperX Virtual Surround Sound)
+[2022.10.13-16.58.35:332][354]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.13-16.58.35:332][354]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.13-16.58.35:332][354]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.13-16.58.35:333][354]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=41
+[2022.10.13-16.58.35:333][354]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=41
+[2022.10.13-16.58.35:335][354]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=41
+[2022.10.13-16.58.35:335][354]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=41
+[2022.10.13-16.58.35:335][354]LogInit: FAudioDevice initialized.
+[2022.10.13-16.58.35:335][354]LogAudio: Display: Audio Device (ID: 41) registered with world 'TestMap'.
+[2022.10.13-16.58.35:350][354]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.10.13-16.58.35:359][354]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2022.10.13-18.58.35
+[2022.10.13-16.58.35:360][354]LogWorld: Bringing up level for play took: 0.009937
+[2022.10.13-16.58.35:362][354]LogOnline: OSS: Created online subsystem instance for: :Context_66
+[2022.10.13-16.58.35:370][354]PIE: Server logged in
+[2022.10.13-16.58.35:371][354]PIE: Play in editor total start time 0,166 seconds.
+[2022.10.13-16.58.39:149][560]LogBlueprintUserMessages: [BP_Interactable_DoubleDoor_C_1] Successfully Interacted
+[2022.10.13-16.58.49:972][195]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.13-16.58.49:972][195]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_TestMap
+[2022.10.13-16.58.49:973][195]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2022.10.13-16.58.49:974][195]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.13-16.58.49:994][195]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.13-16.58.50:004][195]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.13-16.58.50:069][195]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.10.13-16.58.50:070][195]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=41
+[2022.10.13-16.58.50:071][195]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=41
+[2022.10.13-16.58.50:075][195]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.13-16.58.50:082][195]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2022.10.13-16.58.50:132][196]LogPlayLevel: Display: Destroying online subsystem :Context_66
+[2022.10.13-16.59.33:634][443]Cmd: TRANSACTION UNDO
+[2022.10.13-16.59.33:634][443]LogEditorTransaction: Undo Edit Min EV100
+[2022.10.13-16.59.42:094][839]LogDerivedDataCache: C:/Users/Axel/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.613 and deleted 0 file(s) with total size 0 MiB.
+[2022.10.13-16.59.43:451][907]Cmd: TRANSACTION UNDO
+[2022.10.13-16.59.43:451][907]LogEditorTransaction: Undo Edit Max EV100
+[2022.10.13-16.59.58:057][647]Cmd: TRANSACTION UNDO
+[2022.10.13-16.59.58:057][647]LogEditorTransaction: Undo Edit Condition Changed
+[2022.10.13-16.59.58:541][656]Cmd: TRANSACTION UNDO
+[2022.10.13-16.59.58:541][656]LogEditorTransaction: Undo Edit Condition Changed
+[2022.10.13-16.59.58:717][663]Cmd: TRANSACTION UNDO
+[2022.10.13-16.59.58:717][663]LogEditorTransaction: Undo Edit Condition Changed
+[2022.10.13-16.59.58:909][672]Cmd: TRANSACTION UNDO
+[2022.10.13-16.59.58:909][672]LogEditorTransaction: Undo Edit Condition Changed
+[2022.10.13-16.59.59:083][680]Cmd: TRANSACTION UNDO
+[2022.10.13-16.59.59:083][680]LogEditorTransaction: Undo Edit Min EV100
+[2022.10.13-16.59.59:562][703]Cmd: TRANSACTION UNDO
+[2022.10.13-16.59.59:562][703]LogEditorTransaction: Undo Edit Max EV100
+[2022.10.13-17.00.00:082][728]Cmd: TRANSACTION UNDO
+[2022.10.13-17.00.00:082][728]LogEditorTransaction: Undo Edit Max EV100
+[2022.10.13-17.00.00:458][746]Cmd: TRANSACTION UNDO
+[2022.10.13-17.00.00:458][746]LogEditorTransaction: Undo Edit Min EV100
+[2022.10.13-17.00.10:181][244]Cmd: TRANSACTION UNDO
+[2022.10.13-17.00.10:181][244]LogEditorTransaction: Undo Edit Histogram Min EV100
+[2022.10.13-17.00.12:875][349]Cmd: TRANSACTION UNDO
+[2022.10.13-17.00.12:875][349]LogEditorTransaction: Undo Edit Low Percent
+[2022.10.13-17.00.19:205][662]Cmd: TRANSACTION UNDO
+[2022.10.13-17.00.19:205][662]LogEditorTransaction: Undo Edit Histogram Max EV100
+[2022.10.13-17.00.26:455][ 11]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Maps/TestMap" FILE="../../../../../UnrealProjects/HorrorPrototype/Content/ThirdPerson/Maps/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.10.13-17.00.26:526][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2022.10.13-17.00.26:581][ 11]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Maps/TestMap
+[2022.10.13-17.00.26:582][ 11]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/TestMapE74FD6BE4F8FFE11BDE6F5B919517D03.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Content/ThirdPerson/Maps/TestMap.umap'
+[2022.10.13-17.00.26:649][ 11]AssetCheck: New page: Asset Save: TestMap
+[2022.10.13-17.00.26:649][ 11]LogContentValidation: Display: Validating World /Game/ThirdPerson/Maps/TestMap.TestMap
+[2022.10.13-17.00.33:036][339]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.10.13-17.00.33:053][339]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.13-17.00.33:053][339]PIE: New page: PIE session: TestMap (13 Oct 2022, 21:00:33)
+[2022.10.13-17.00.33:053][339]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_TestMap
+[2022.10.13-17.00.33:071][339]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017417s)
+[2022.10.13-17.00.33:071][339]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/TestMap.TestMap to /Game/ThirdPerson/Maps/UEDPIE_0_TestMap.TestMap (0.017539s)
+[2022.10.13-17.00.33:071][339]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.13-17.00.33:071][339]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.13-17.00.33:072][339]LogAIModule: Creating AISystem for world TestMap
+[2022.10.13-17.00.33:072][339]LogPlayLevel: PIE: World Init took: (0.000999s)
+[2022.10.13-17.00.33:139][339]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2022.10.13-17.00.33:141][339]LogAudio: Display: Creating Audio Device:                 Id: 42, Scope: Unique, Realtime: True
+[2022.10.13-17.00.33:141][339]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.13-17.00.33:141][339]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.13-17.00.33:141][339]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.13-17.00.33:141][339]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.13-17.00.33:141][339]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.13-17.00.33:141][339]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.13-17.00.33:141][339]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.13-17.00.33:141][339]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.13-17.00.33:142][339]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.10.13-17.00.33:142][339]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.10.13-17.00.33:142][339]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.13-17.00.33:144][339]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.13-17.00.33:181][339]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (HyperX Virtual Surround Sound)
+[2022.10.13-17.00.33:182][339]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.13-17.00.33:182][339]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.13-17.00.33:182][339]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.13-17.00.33:183][339]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=42
+[2022.10.13-17.00.33:183][339]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=42
+[2022.10.13-17.00.33:185][339]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=42
+[2022.10.13-17.00.33:185][339]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=42
+[2022.10.13-17.00.33:185][339]LogInit: FAudioDevice initialized.
+[2022.10.13-17.00.33:185][339]LogAudio: Display: Audio Device (ID: 42) registered with world 'TestMap'.
+[2022.10.13-17.00.33:196][339]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.10.13-17.00.33:205][339]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2022.10.13-19.00.33
+[2022.10.13-17.00.33:206][339]LogWorld: Bringing up level for play took: 0.010027
+[2022.10.13-17.00.33:208][339]LogOnline: OSS: Created online subsystem instance for: :Context_67
+[2022.10.13-17.00.33:216][339]PIE: Server logged in
+[2022.10.13-17.00.33:217][339]PIE: Play in editor total start time 0,164 seconds.
+[2022.10.13-17.00.39:955][707]LogBlueprintUserMessages: [BP_Interactable_DoubleDoor_C_1] Successfully Interacted
+[2022.10.13-17.00.54:654][556]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.13-17.00.54:654][556]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_TestMap
+[2022.10.13-17.00.54:654][556]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2022.10.13-17.00.54:656][556]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.13-17.00.54:673][556]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.13-17.00.54:682][556]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.13-17.00.54:748][556]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.10.13-17.00.54:749][556]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=42
+[2022.10.13-17.00.54:750][556]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=42
+[2022.10.13-17.00.54:755][556]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.13-17.00.54:762][556]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2022.10.13-17.00.54:884][557]LogPlayLevel: Display: Destroying online subsystem :Context_67
+[2022.10.13-17.19.54:631][306]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Maps/TestMap" FILE="../../../../../UnrealProjects/HorrorPrototype/Content/ThirdPerson/Maps/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.10.13-17.19.54:712][306]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2022.10.13-17.19.54:764][306]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Maps/TestMap
+[2022.10.13-17.19.54:765][306]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/TestMapB181D55240B0A5C2EA3FBB89EFFCFFFA.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Content/ThirdPerson/Maps/TestMap.umap'
+[2022.10.13-17.19.54:833][306]AssetCheck: New page: Asset Save: TestMap
+[2022.10.13-17.19.54:833][306]LogContentValidation: Display: Validating World /Game/ThirdPerson/Maps/TestMap.TestMap
+[2022.10.13-17.19.56:916][414]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Maps/TestMap" FILE="../../../../../UnrealProjects/HorrorPrototype/Content/ThirdPerson/Maps/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.10.13-17.19.56:982][414]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2022.10.13-17.19.57:032][414]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Maps/TestMap
+[2022.10.13-17.19.57:033][414]LogSavePackage: Moving '../../../../../UnrealProjects/HorrorPrototype/Saved/TestMapE978820D4BFA9D2BA5B93D9BC434AFBE.tmp' to '../../../../../UnrealProjects/HorrorPrototype/Content/ThirdPerson/Maps/TestMap.umap'
+[2022.10.13-17.19.57:098][414]AssetCheck: New page: Asset Save: TestMap
+[2022.10.13-17.19.57:098][414]LogContentValidation: Display: Validating World /Game/ThirdPerson/Maps/TestMap.TestMap
